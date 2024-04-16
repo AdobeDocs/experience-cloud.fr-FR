@@ -27,13 +27,13 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 
 1. Sur la page d’accueil de Triggers, cliquez sur **[!UICONTROL Créer un déclencheur]**, puis indiquez le type de déclencheur.
 
-   Trois types de déclencheurs sont disponibles :
+   Trois types de déclencheurs sont disponibles:
 
-   * **[!UICONTROL Abandon ]** : vous pouvez créer un déclencheur qui s’exécute lorsqu’un visiteur ou une visiteuse consulte un produit mais ne l’ajoute pas au panier.
+   * **[!UICONTROL Abandon]**: vous pouvez créer un déclencheur qui s’exécute lorsqu’un visiteur ou une visiteuse consulte un produit mais ne l’ajoute pas au panier.
 
-   * **[!UICONTROL Action ]** : vous pouvez créer des déclencheurs, par exemple, pour qu’ils s’exécutent après une inscription à une newsletter, un abonnement par e-mail ou une demande de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
+   * **[!UICONTROL Action]**: vous pouvez créer des déclencheurs, par exemple, pour qu’ils s’exécutent après une inscription à une newsletter, un abonnement par e-mail ou une demande de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
 
-   * **[!UICONTROL Début et fin de session]** : créez un déclencheur pour les événements de début et de fin de session.
+   * **[!UICONTROL Début et fin de session]**: créez un déclencheur pour les événements de début et de fin de session.
 
    ![](assets/triggers_1.png)
 
