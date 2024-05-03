@@ -4,8 +4,7 @@ description: Découvrez les problèmes courants liés aux API Campaign Standard
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 97%
@@ -86,7 +85,7 @@ Votre jeton n’est pas valide (appel IMS incorrect utilisé pour générer un j
 
 Selon la configuration de l’instance, le profil créé doit être associé à un **orgUnit**. Pour comprendre comment ajouter ce champ à votre création, consultez [cette section](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
+<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles
