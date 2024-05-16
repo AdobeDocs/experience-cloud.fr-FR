@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
+source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 81%
+source-wordcount: '392'
+ht-degree: 95%
 
 ---
 
@@ -24,16 +25,14 @@ Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comm
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec Adobe Campaign Service** dans [Adobe Developer](https://developer.adobe.com/) et configurez-la. Vos informations d’identification seront alors générées (clé d’API, secret client...).
-1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API.
+1. **Création d’un serveur à serveur OAuth** informations d’identification en procédant comme suit : [étapes de mise en oeuvre](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
-   >JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition se fera progressivement dans les prochaines versions de Campaign. Les informations d’identification du compte de service (JWT) ont été marquées comme étant obsolètes. Elles continueront à fonctionner jusqu’au 27 janvier 2025. Par conséquent, vous devez migrer votre application ou intégration pour utiliser les nouvelles informations d’identification OAuth Server-to-Server avant le 27 janvier 2025. L’authentification OAuth est préférable. Vous trouverez tous les éléments à migrer de l’authentification JWT vers l’authentification OAuth sur ces pages :
+   >JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition se fera progressivement dans les prochaines versions de Campaign. Bien que les informations d’identification du compte de service (JWT) aient été marquées comme obsolètes, elles continueront de fonctionner jusqu’au 27 janvier 2025. Par conséquent, vous devez migrer votre application ou intégration pour utiliser les nouvelles informations d’identification OAuth serveur à serveur avant le 27 janvier 2025. L’authentification OAuth est préférable. Vous trouverez tous les éléments à migrer de l’authentification JWT vers l’authentification OAuth sur ces pages :
    >* [Migration](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [Mise en œuvre](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
-   >* [FAQ JWT sur l’obsolescence](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
-
-1. **Échangez votre JWT pour un jeton d’accès** via une requête POST. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
+   >* [Questions fréquentes sur l’obsolescence de JWT](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.
 
