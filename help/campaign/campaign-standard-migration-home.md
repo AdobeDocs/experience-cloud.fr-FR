@@ -3,16 +3,16 @@ title: Interface utilisateur web d’Adobe Campaign
 description: Découvrez l’interface utilisateur web d’Adobe Campaign
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
+source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 11%
+ht-degree: 30%
 
 ---
 
 # Transition de Campaign Standard vers Campaign v8 {#triggers-home}
 
-En tant qu’utilisateur Campaign Standard passant à Campaign v8, vous pouvez désormais bénéficier de la nouvelle version de l’interface utilisateur web d’Adobe Campaign et de la puissante console v8. La transition est transparente et vous permettra d’utiliser toutes les fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées. L’interface utilisateur web de Campaign contient également un canevas connecté avec Adobe Experience Platform pour une expérience unifiée.
+En migrant de Campaign Standard à Campaign v8, vous pouvez maintenant profiter de la toute nouvelle version de l’interface d’utilisation d’Adobe Campaign Web ainsi que de la puissante console v8. La transition est fluide et vous permettra d’utiliser toutes les fonctionnalités intuitives conçues pour simplifier la création de campagnes cross-canal personnalisées. L’interface utilisateur web de Campaign contient également un canevas connecté avec Adobe Experience Platform pour une expérience unifiée.
 
 En outre, cette transition sera porteuse de nombreux avantages :
 
@@ -21,11 +21,11 @@ En outre, cette transition sera porteuse de nombreux avantages :
 * Intégration à Adobe Experience Platform
 * Interface utilisateur et expérience cohérentes
 
-Pour plus d’informations sur les principales fonctionnalités et les différences de concept, reportez-vous à la section [cette page](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/release-notes/acs-migration).
+Pour plus d’informations sur les principales fonctionnalités et les différences de concept, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## Nouveautés
 
-Découvrez toutes les fonctionnalités offertes par [Interface utilisateur Web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home) et [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home).
+Découvrez toutes les fonctionnalités offertes par [Interface utilisateur Web de Campaign](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/campaign-web-home) et [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home).
 
 Pour que vous puissiez passer de Campaign Standard à v8, nous avons ajouté des fonctionnalités clés :
 
