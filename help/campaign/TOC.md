@@ -4,10 +4,10 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 73%
+source-wordcount: '159'
+ht-degree: 74%
 
 ---
 
@@ -24,21 +24,22 @@ ht-degree: 73%
       + [Dépannage](reporting/troubleshooting.md)
    + Liste des rapports {#list-of-reports}
       + [Définir la période d&#39;un rapport](reporting/defining-the-report-period.md)
-      + [Synthèse des rebonds (Bounce summary)](reporting/bounce-summary.md)
-      + [Répartition par domaine (Breakdown by domains)](reporting/breakdown-by-domains.md)
+      + [Synthèse des rebonds](reporting/bounce-summary.md)
+      + [Répartition par domaine](reporting/breakdown-by-domains.md)
       + [Plaintes](reporting/complaints.md)
-      + [Synthèse des diffusions (Delivery summary)](reporting/delivery-summary.md)
-      + [Débit des diffusions (Delivery throughput)](reporting/delivery-throughput.md)
-      + [Echecs et retours](reporting/non-deliverables-and-bounces.md)
+      + [Résumé des diffusions](reporting/delivery-summary.md)
+      + [Débit des diffusions](reporting/delivery-throughput.md)
+      + [Non-délivrables et rebonds](reporting/non-deliverables-and-bounces.md)
       + [Ouvertures](reporting/opens.md)
       + [Indicateurs de tracking](reporting/tracking-indicators.md)
       + [Désabonnements](reporting/unsubscriptions.md)
-      + [URL et flux de clics (URLs and click streams)](reporting/urls-and-click-streams.md)
+      + [URL et flux de clics](reporting/urls-and-click-streams.md)
    + Personnalisation des rapports {#customizing-reports}
       + [Ajout de panneaux](reporting/adding-panels.md)
       + [Ajout de visualisations](reporting/adding-visualizations.md)
       + [Ajouter des composants](reporting/adding-components.md)
       + [Création d&#39;une dimension de profil personnalisé](reporting/creating-a-custom-profile-dimension.md)
+      + [Accord sur l&#39;utilisation des rapports dynamiques](reporting/pii-agreement.md)
 + Marques {#branding}
    + [À propos de la marque](branding/branding-gs.md)
    + [Configurer une marque](branding/branding-configure.md)
@@ -54,7 +55,7 @@ ht-degree: 73%
       + [Mécanisme des métadonnées](api/metadata-mechanism.md)
       + [Verbes](api/verbs.md)
       + Autres opérations {#additional-operations}
-         + [tri](api/sorting.md)
+         + [Tri](api/sorting.md)
          + [Filtrage](api/filtering.md)
          + [Comptage](api/counting.md)
          + [Pagination](api/pagination.md)
