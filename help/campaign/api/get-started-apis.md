@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 48%
@@ -22,7 +23,7 @@ ht-degree: 48%
 >
 >Avant d’effectuer des appels aux API, vérifiez les limites de taille correspondant à votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
 
-Les API REST de Campaign ont pour but de vous permettre **créer des intégrations** pour Adobe Campaign et **construire votre propre écosystème ;** en interfaçant Adobe Campaign avec le panneau des technologies que vous utilisez.
+Les API REST de Campaign ont pour but de vous permettre de **créer des intégrations** pour Adobe Campaign et de **créer votre propre écosystème** en interfaçant Adobe Campaign avec le panneau de technologies que vous utilisez.
 
 Avec les API REST Adobe Campaign, vous avez accès aux fonctionnalités suivantes :
 

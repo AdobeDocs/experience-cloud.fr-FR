@@ -1,21 +1,22 @@
 ---
-title: Débit des diffusions (Delivery throughput)
-description: Grâce au rapport d'usine Débit des diffusions (Delivery throughput), découvrez les performances de votre diffusion.
+title: Débit des diffusions
+description: Grâce au rapport d'usine Débit des diffusions, découvrez les performances de votre diffusion.
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: cf086a57-dd70-41bc-a039-4070cecc3a66
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 90%
+ht-degree: 65%
 
 ---
 
-# Débit des diffusions (Delivery throughput){#delivery-throughput}
+# Débit des diffusions{#delivery-throughput}
 
-Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Ces données sont :
+Ce rapport contient des données relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Il fournit les éléments suivants :
 
-* nombre de messages traités par heure
+* Nombre de messages traités par heure
 * Le tableau **[!UICONTROL Top 5 des diffusions]** et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
 
 ![](assets/delivery_reports_1.png)

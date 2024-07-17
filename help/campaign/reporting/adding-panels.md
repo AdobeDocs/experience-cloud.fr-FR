@@ -1,13 +1,14 @@
 ---
 title: Ajout de panneaux
-description: Un rapport dynamique permet d'ajouter un panneau pour mieux filtrer les données selon la période choisie.
+description: Le rapport dynamique vous permet d’ajouter un panneau afin de mieux filtrer vos données en fonction de la période sélectionnée.
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 level: Intermediate
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: c87f6155-821d-422d-86e5-4f5533d62fda
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 97%
+ht-degree: 87%
 
 ---
 
@@ -15,11 +16,11 @@ ht-degree: 97%
 
 ## Ajout d’un panneau vierge {#adding-a-blank-panel}
 
-Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport d&#39;usine ou personnalisé. Chaque panneau contient différents jeux de données et est composé de tableaux à structure libre et de visualisations.
+Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport prêt à l’emploi ou personnalisé. Chaque panneau contient différents jeux de données et est composé de tableaux à structure libre et de visualisations.
 
 Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajouter autant de panneaux que vous le souhaitez dans vos rapports afin de filtrer vos données selon différentes périodes.
 
-1. Cliquez sur l&#39;icône **Panneaux.** Vous pouvez également ajouter un panneau en cliquant sur l&#39;onglet **Insertion** et en sélectionnant **Nouveau panneau vierge**.
+1. Cliquez sur l’icône **Panneaux.** Vous pouvez également ajouter un panneau en cliquant sur l’onglet **Insertion** et en sélectionnant **Nouveau panneau vierge**.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -31,17 +32,17 @@ Vous pouvez maintenant ajouter un tableau à structure libre à votre panneau po
 
 ## Ajout d’un tableau à structure libre {#adding-a-freeform-table}
 
-Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l&#39;aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
+Les tableaux à structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes mesures et des dimensions disponibles dans le tableau **Composant**.
 
 Chaque tableau et chaque visualisation peuvent être redimensionnés et déplacés afin de mieux personnaliser votre rapport.
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Panneaux]**.
+1. Cliquez sur l’icône **[!UICONTROL Panneaux]**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Placez l&#39;élément **[!UICONTROL Structure libre]** sur votre tableau de bord.
+1. Placez l’élément **[!UICONTROL Structure libre]** sur votre tableau de bord.
 
-   Vous pouvez également ajouter un tableau en cliquant sur l&#39;onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle Forme Libre]** ou en cliquant sur **[!UICONTROL Ajouter un panneau structure libre]** dans un panneau vide.
+   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle structure libre]** ou en cliquant sur **[!UICONTROL Ajouter un tableau à structure libre]** dans un panneau vide.
 
    ![](assets/dynamic_report_panel_2.png)
 
@@ -49,23 +50,23 @@ Chaque tableau et chaque visualisation peuvent être redimensionnés et déplac�
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Positionnez des éléments de l&#39;onglet **[!UICONTROL Composants]** dans les colonnes et les rangées pour créer votre tableau.
+1. Positionnez des éléments de l’onglet **[!UICONTROL Composants]** dans les colonnes et les rangées pour créer votre tableau.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Paramètres]** pour modifier l&#39;affichage des données dans vos colonnes.
+1. Cliquez sur l’icône **[!UICONTROL Paramètres]** pour modifier l’affichage des données dans vos colonnes.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   L&#39;option **[!UICONTROL Paramètres de colonne]** est composée des éléments suivants :
+   L’option **[!UICONTROL Paramètres de colonne]** est composée des éléments suivants :
 
    * **[!UICONTROL Nombre]** : permet d&#39;afficher ou de masquer les nombres de synthèse dans la colonne.
    * **[!UICONTROL Pourcentage]** : permet d&#39;afficher ou de masquer le pourcentage dans la colonne.
    * **[!UICONTROL Interpréter zéro comme n&#39;étant pas une valeur]** : permet d&#39;afficher ou de masquer une valeur lorsqu&#39;elle est égale à zéro.
-   * **[!UICONTROL Arrière-plan]** : permet d&#39;afficher ou de masquer la barre de progression horizontale dans les cellules.
-   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d&#39;inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Bounces + erreurs]**.
+   * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
+   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Rebonds + erreurs]**.
 
-1. Sélectionnez une ou plusieurs rangées et cliquez sur l&#39;icône **[!UICONTROL Visualiser.]** Une visualisation est ajoutée pour refléter les lignes sélectionnées.
+1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation est ajoutée pour refléter les lignes sélectionnées.
 
    ![](assets/dynamic_report_freeform_5.png)
 

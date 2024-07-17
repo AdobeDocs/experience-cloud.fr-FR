@@ -4,20 +4,21 @@ description: Cette section contient la liste de tous les composants disponibles 
 level: Beginner
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: b11d696767209145511b38735f22275a38676ade
+exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 94%
+ht-degree: 54%
 
 ---
 
 # Liste des composants {#list-of-components}
 
-Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
+Notez que si deux composants ne sont pas compatibles, la cellule affiche la valeur **None**.
 
 ## Dimensions {#dimensions}
 
-Le tableau ci-dessous contient la liste des dimensions utilisées dans les différents rapports et leur définition.
+Le tableau ci-dessous contient la liste des dimensions utilisées dans les rapports et leur définition.
 
 <table> 
  <thead> 
@@ -29,7 +30,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  <tbody> 
   <tr> 
    <td> Navigateur<br/> </td> 
-   <td> Navigateur dans lequel le message a été ouvert ou a fait l'objet d'un clic.<br/> </td> 
+   <td> Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic.<br/> </td> 
   </tr> 
   <tr> 
    <td> Campaign<br/> </td> 
@@ -41,19 +42,19 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Appareil<br/> </td> 
-   <td> Appareil sur lequel l'email/le SMS/la notification push ont été ouverts/vus ou ont fait l'objet d'un clic.<br/> </td> 
+   <td> Appareil sur lequel l’email/le SMS/la notification push ont été ouverts/vus ou ont fait l’objet d’un clic.<br/> </td> 
   </tr> 
   <tr> 
    <td> Raison de l'échec<br/> </td> 
    <td> Types d’erreurs qui provoquaient des rebonds pour chaque diffusion (par exemple : utilisateur inconnu, domaine non valide ou boîte pleine).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Nom de l'application mobile<br/> </td> 
-   <td> Nom de l'application mobile.<br/> </td> 
+   <td> Nom de l’application mobile<br/> </td> 
+   <td> Nom de l’application mobile.<br/> </td> 
   </tr>
   <tr> 
-   <td> Plate-forme<br/> </td> 
-   <td> Plateforme de l'appareil sur lequel le message a été ouvert/vu ou a fait l'objet d'un clic.<br/> </td> 
+   <td> Plateforme<br/> </td> 
+   <td> Plateforme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br/> </td> 
   </tr> 
   <tr> 
    <td> Profil<br/> </td> 
@@ -61,31 +62,31 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Domaine du destinataire<br/> </td> 
-   <td> Domaine utilisé pour ouvrir l'email.<br/> </td> 
+   <td> Domaine utilisé pour ouvrir l’email.<br/> </td> 
   </tr> 
   <tr> 
    <td> Diffusion récurrente<br/> </td> 
    <td> Libellé et identifiant de la diffusion récurrente.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Domaine de l'expéditeur<br/> </td> 
+   <td> Domaine de l’expéditeur<br/> </td> 
    <td> Domaine utilisé pour envoyer l'email.<br/> </td> 
   </tr> 
   <tr> 
-   <td> IP de l'expéditeur<br/> </td> 
-   <td> Adresse IP utilisée pour envoyer l'email.<br/> </td> 
+   <td> Adresse IP de l’expéditeur<br/> </td> 
+   <td> IP utilisée pour envoyer l'email.<br/> </td> 
   </tr> 
   <tr> 
    <td> URL de tracking<br/> </td> 
-   <td> URL sur laquelle a cliqué l'utilisateur dans le message.<br/> </td> 
+   <td> URL sur laquelle a cliqué l’utilisateur dans le message.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Catégorie de l'URL de tracking<br/> </td> 
-   <td> Catégorie affectée à l'URL de tracking.<br/> </td> 
+   <td> Catégorie de l’URL de tracking<br/> </td> 
+   <td> Catégorie affectée à l’URL de tracking.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Libellé de l'URL de tracking<br/> </td> 
-   <td> Libellé de l'URL (page miroir, contactez-nous ou ouvrir, par exemple).<br/> </td> 
+   <td> Libellé de l’URL de tracking<br/> </td> 
+   <td> Libellé attribué à l'URL (page miroir, contactez-nous ou ouvrir, par exemple).<br/> </td> 
   </tr> 
   <tr> 
    <td> Diffusion transactionnelle<br/> </td> 
@@ -93,7 +94,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Variante<br/> </td> 
-   <td> Variante de l'email en cas de test A/B.<br/> </td> 
+   <td> Variante de l’email en cas de test A/B.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,19 +122,19 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de diffusions marquées sur la liste bloquée.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br/> </td> 
+   <td> Rebonds + erreurs<br/> </td> 
    <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br/> </td> 
+   <td> Taux de rebond + erreurs<br/> </td> 
    <td> Pourcentage d'emails qui ont fait l'objet d'un bounce par rapport au nombre d'emails envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Click<br/> </td> 
+   <td> Clics<br/> </td> 
    <td> Nombre de clics sur un contenu dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br/> </td> 
+   <td> Taux de clics<br/> </td> 
    <td> Pourcentage de clics dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
@@ -141,27 +142,27 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br/> </td> 
+   <td> Taux de délivrabilité<br/> </td> 
    <td> Pourcentage de messages envoyés avec succès.<br/> </td> 
   </tr> 
   <tr> 
    <td> Rebond définitif<br/> </td> 
-   <td> Nombre total d'erreurs permanentes, telles qu'une adresse email incorrecte.<br/> </td> 
+   <td> Nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux de hard bounce<br/> </td> 
-   <td> Pourcentage de diffusions en erreur en raison d'erreurs permanentes.<br/> </td> 
+   <td> Taux de rebond définitif<br/> </td> 
+   <td> Pourcentage de diffusions ayant échoué en raison d'erreurs permanentes.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br/> </td> 
+   <td> Page miroir<br/> </td> 
    <td> Nombre de destinataires ayant cliqué sur le lien de la page miroir.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br/> </td> 
-   <td> Pourcentage de clics sur le lien de la page miroir par rapport au nombre total de messages de la diffusion.<br/> </td> 
+   <td> Taux de page miroir<br/> </td> 
+   <td> Pourcentage de clics sur le lien de la page miroir par rapport au nombre total de messages de diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clics sur une offre<br/> </td> 
+   <td> Clics sur l’offre<br/> </td> 
    <td> Nombre de clics sur une offre dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
@@ -169,8 +170,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de clics sur une offre.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br/> </td> 
-   <td> Nombre d’ouvertures d’un message dans une diffusion.<br/> </td> 
+   <td> Ouvertures<br/> </td> 
+   <td> Nombre d'ouvertures d'un message dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
    <td> Taux d'ouverture<br/> </td> 
@@ -178,31 +179,31 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Traités/envoyés<br/> </td> 
-   <td> Nombre total d'envois pour la diffusion.<br/> </td> 
+   <td> Nombre total d’envois pour la diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br/> </td> 
-   <td> Nombre de messages qui ont fait l'objet d'un bounce et qui ont entraîné la mise en quarantaine de l'adresse.<br/> </td> 
+   <td> Quarantaine<br/> </td> 
+   <td> Nombre de messages qui ont fait l’objet d’un rebond et qui ont entraîné la mise en quarantaine de l’adresse.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br/> </td> 
+   <td> Taux de mise en quarantaine<br/> </td> 
    <td> Pourcentage de mises en quarantaine par rapport au nombre de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br/> </td> 
+   <td> Rejetés<br/> </td> 
    <td> Nombre de messages classés comme spam par les serveurs SMTP.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br/> </td> 
+   <td> Taux de rejet<br/> </td> 
    <td> Pourcentage de messages marqués comme rejetés.<br/> </td> 
   </tr> 
   <tr> 
    <td> Rebond temporaire<br/> </td> 
-   <td> Nombre total d'erreurs permanentes, telles qu'une boîte de réception pleine.<br/> </td> 
+   <td> Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounce<br/> </td> 
-   <td> Pourcentage de diffusions en erreur pour une raison temporaire.<br/> </td> 
+   <td> Taux de rebonds temporaires<br/> </td> 
+   <td> Pourcentage de diffusions ayant échoué pour une raison temporaire.<br/> </td> 
   </tr> 
   <tr> 
    <td> Clics uniques<br/> </td> 
@@ -217,11 +218,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant cliqué sur le lien de désabonnement.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br/> </td> 
+   <td> Taux de désabonnement<br/> </td> 
    <td> Nombre de désbonnements uniques par rapport aux messages délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Désabonné<br/> </td> 
+   <td> Désabonnement<br/> </td> 
    <td> Nombre de clics sur le lien de désabonnement.<br/> </td> 
   </tr> 
  </tbody> 
@@ -349,7 +350,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 ## Segments {#segments}
 
-Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
+Le tableau ci-dessous contient la liste des segments utilisés dans les rapports et leur définition.
 
 <table> 
  <thead> 
@@ -360,68 +361,68 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age : baby boomers 1<br/> </td> 
+   <td> Age : baby boomers 1<br/> </td> 
    <td> Destinataires nés entre 1946 et 1954.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : baby boomers 2<br/> </td> 
+   <td> Age : baby boomers 2<br/> </td> 
    <td> Destinataires nés entre 1955 et 1965.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 18 à 25 ans<br/> </td> 
+   <td> Age : de 18 à 25<br/> </td> 
    <td> Destinataires âgés de 18 à 25 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 26 à 30 ans<br/> </td> 
+   <td> Age : de 26 à 30<br/> </td> 
    <td> Destinataires âgés de 26 à 30 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 31 à 40 ans<br/> </td> 
+   <td> Age : de 31 à 40<br/> </td> 
    <td> Destinataires âgés de 31 à 40 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 41 à 50 ans<br/> </td> 
+   <td> Age : de 41 à 50<br/> </td> 
    <td> Destinataires âgés de 41 à 50 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération X<br/> </td> 
+   <td> Age : génération X<br/> </td> 
    <td> Destinataires nés entre 1966 et 1976.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération Y (enfants du millénaire)<br/> </td> 
+   <td> Age : génération Y (enfants du millénaire)<br/> </td> 
    <td> Destinataires nés entre 1977 et 1994.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération Z<br/> </td> 
+   <td> Age : génération Z<br/> </td> 
    <td> Destinataires nés entre 1995 et aujourd'hui.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : plus de 50 ans<br/> </td> 
-   <td> Destinataires dont l'âge est supérieur à 50 ans.<br/> </td> 
+   <td> Age : plus de 50<br/> </td> 
+   <td> Destinataires dont l'âge est supérieur à 50.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 25 ans<br/> </td> 
+   <td> Age : moins de 25<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 25 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 30 ans<br/> </td> 
+   <td> Age : moins de 30<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 30 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 40 ans<br/> </td> 
+   <td> Age : moins de 40<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 40 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 50 ans<br/> </td> 
+   <td> Age : moins de 50<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 50 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération silencieuse<br/> </td> 
+   <td> Age : génération silencieuse<br/> </td> 
    <td> Destinataires nés en 1945 ou avant.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Toutes les visites<br/> </td> 
-   <td> Tous les destinataires<br/> </td> 
+   <td> Toutes les visites <br/> </td> 
+   <td> Chaque destinataire<br/> </td> 
   </tr>
  </tbody> 
 </table>

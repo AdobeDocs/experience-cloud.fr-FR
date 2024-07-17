@@ -4,10 +4,11 @@ description: Avec les rapports dynamiques, placez des variables et des dimension
 level: Beginner
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 audience: end-user
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: d79f8a07-2322-4bc7-9d74-446db24a8d70
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 79%
+ht-degree: 66%
 
 ---
 
@@ -17,15 +18,15 @@ Les rapports dynamiques fournissent des rapports entièrement personnalisables e
 
 ## Accès aux rapports dynamiques {#accessing-dynamic-reports}
 
-Les rapports sont accessibles au niveau de chaque opération et diffusion en cliquant sur **Rapports**. Une fenêtre contextuelle s’affiche, vous informant que vous serez redirigé vers **Rapport dynamique** dans un nouvel onglet du navigateur.
+Pour accéder aux rapports dans chaque campagne et chaque diffusion, cliquez sur **Rapports**. Une fenêtre contextuelle s’affiche, vous informant que vous serez redirigé vers la page **Rapport dynamique** dans un nouvel onglet du navigateur.
 
 ![](assets/campaign_reports_access.png)
 
-Certains rapports peuvent ne pas être immédiatement disponibles après une diffusion, selon le délai de collecte et de traitement des informations.
+Certains rapports ne peuvent pas être disponibles immédiatement après une diffusion, selon le temps nécessaire à la collecte et au traitement des informations.
 
-Les rapports dynamiques sont divisés en deux catégories :
+Les rapports dynamiques sont répartis en deux catégories :
 
 * les **modèles**, qui peuvent être modifiés après avoir été copiés à l’aide de l’option **Enregistrer sous** (**Projet > Enregistrer sous...**) dans le modèle ;
-* les **rapports personnalisés** (en bleu), qui peuvent être créés directement en cliquant sur le bouton **Créer un nouveau projet** sur la page d&#39;accueil des **Rapports**.
+* les **rapports personnalisés** (en bleu), qui peuvent être créés directement en cliquant sur le bouton **Créer un nouveau projet** sur la page d’accueil des **Rapports**.
 
 ![](assets/dynamic_report_overview.png)

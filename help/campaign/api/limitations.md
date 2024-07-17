@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Avec la migration, deux profils de produit sont ajoutés à vos comptes techniqu
 
 ### Identifiant du client
 
-Après la migration, pour toute intégration ultérieure, il est recommandé d’utiliser votre **Identifiant du client Campaign v8** dans les URL REST, en remplaçant votre identifiant de client Campaign Standard précédent.
+Après la migration, pour les intégrations futures, il est recommandé d’utiliser votre **ID de tenant Campaign v8** dans les URL REST, en remplaçant votre identifiant de client Campaign Standard précédent.
 
 ### Utilisation des clés
 
@@ -44,7 +45,7 @@ Pour l’instant, les API REST répertoriées ci-dessous sont disponibles :
 
 >[!AVAILABILITY]
 >
->Pour l’instant, la variable **Messages transactionnels** L’API REST n’est pas disponible.
+>Pour l’instant, l’API REST **Messages transactionnels** n’est pas disponible.
 >
 >Les API REST répertoriées ci-dessous sont obsolètes et ne sont pas disponibles :
 >* Historique marketing
@@ -53,7 +54,7 @@ Pour l’instant, les API REST répertoriées ci-dessous sont disponibles :
 
 ## Filtrage
 
-* Pour utiliser vos filtres dans les payloads de l’API REST, vous devez les modifier dans Campaign v8 et donner un nom à utiliser dans les payloads. Pour ce faire, accédez aux paramètres supplémentaires du filtre à partir de la **[!UICONTROL Paramètres]** et indiquez le nom de votre choix dans la variable **[!UICONTROL Nom du filtre dans l’API REST]** champ .
+* Pour utiliser vos filtres dans les payloads de l’API REST, vous devez les modifier dans Campaign v8 et donner un nom à utiliser dans les payloads. Pour ce faire, accédez aux paramètres supplémentaires du filtre à partir de l’onglet **[!UICONTROL Paramètres]** et indiquez le nom de votre choix dans le champ **[!UICONTROL Nom du filtre dans l’API REST]**.
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ La section ci-dessous répertorie les différences entre les codes et les messag
 | Utilisation d’un raw-id non existant dans l’URI | 404 - RST-360011 Une erreur s&#39;est produite - contactez votre administrateur. Impossible de trouver le document avec le chemin &quot;Service&quot; à partir de la clé &quot;adobe_nl:0&quot; (document avec le schéma &quot;service&quot; et le nom &quot;adobe_nl&quot;) | 404 - Impossible de trouver le document avec le chemin &#39;Service&#39; à partir de la clé &#39;adobe_nl&#39; (document avec le schéma &#39;service&#39; et le nom &#39;adobe_nl&#39;) |
 | Utilisation d’un identifiant brut non existant dans le corps de la requête | 404 - RST-360011 Une erreur s&#39;est produite - contactez votre administrateur. Impossible de trouver le document avec le chemin &quot;Service&quot; à partir de la clé &quot;adobe_nl&quot; (document avec le schéma &quot;service&quot; et le nom &quot;adobe_nl&quot;) | 404 - Impossible de trouver le document avec le chemin &#39;Service&#39; à partir de la clé &#39;adobe_nl&#39; (document avec le schéma &#39;service&#39; et le nom &#39;adobe_nl&#39;) |
 | - | 500 - RST-360011 Une erreur s&#39;est produite - contactez votre administrateur. | 500 - Une erreur s’est produite - contactez votre administrateur. |
-| Insérer un profil/service avec une valeur d’énumération de genre non valide (ou autre) | 500 - RST-360011 Une erreur s&#39;est produite - contactez votre administrateur. La valeur &quot;non valide&quot; n’est pas valide pour &quot;nms&quot;:recipient:Enumération &quot;gender&quot; du champ &quot;@gender&quot; | 500 - Une erreur s’est produite - contactez votre administrateur. |
+| Insérer un profil/service avec une valeur d’énumération de genre non valide (ou autre) | 500 - RST-360011 Une erreur s&#39;est produite - contactez votre administrateur. La valeur &#39;invalid&#39; n&#39;est pas valide pour l&#39;énumération &#39;nms:recipient:gender&#39; du champ &#39;@gender&#39; | 500 - Une erreur s’est produite - contactez votre administrateur. |
 
 ## Profil - Fuseau horaire
 
-Avec Campaign Standard, le fuseau horaire s’affiche dans le cadre de la réponse JSON de **profileAndServices/profile** Appels de l’API REST.
+Avec Campaign Standard, le fuseau horaire s’affiche dans le cadre de la réponse JSON des appels d’API REST **profileAndServices/profile**.
 
-Avec Campaign v8, le fuseau horaire s’affiche uniquement pour l’utilisateur dans le cadre de la **profileAndServicesExt/profile** Appels de l’API REST. Cela ne fait pas partie de **profileAndServices/profile** Appels de l’API REST depuis son ajout dans un schéma étendu.
+Avec Campaign v8, le fuseau horaire s’affiche uniquement pour l’utilisateur dans le cadre des appels d’API REST **profileAndServicesExt/profile**. Il ne fait pas partie des appels d’API REST **profileAndServices/profile** puisqu’il est ajouté à un schéma étendu.
 
 ## Workflows - Déclenchement de signaux externes
 

@@ -1,10 +1,11 @@
 ---
 title: Désabonnements
-description: Grâce au rapport d'usine Désinscriptions (Unsubscriptions), découvrez combien de fois les clients se sont désabonnés à vos diffusions.
+description: Grâce au rapport d'usine Désabonnements, découvrez combien de fois les clients se sont désabonnés de vos diffusions.
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 88%
@@ -13,7 +14,7 @@ ht-degree: 88%
 
 # Désabonnements{#unsubscriptions}
 
-Le rapport **[!UICONTROL Désinscriptions]** (Unsubscriptions) permet d&#39;identifier les diffusions avec le plus de désinscriptions.
+Le rapport **[!UICONTROL Désabonnements]** permet didentifier les diffusions avec le plus de désabonnements.
 
 ![](assets/delivery_reports_unsub.png)
 

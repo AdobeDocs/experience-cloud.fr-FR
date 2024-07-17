@@ -7,7 +7,7 @@ badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-stand
 source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 89%
+ht-degree: 43%
 
 ---
 
@@ -17,8 +17,8 @@ Le rapport **SMS** fournit des détails sur les diffusions SMS tels que les déb
 
 ![](assets/dynamic_report_sms.png)
 
-La tableau **SMS summary**, les graphiques et les nombres de synthèse contiennent les données disponibles pour les diffusions SMS envoyées.
+La tableau **Synthèse des SMS**, les graphiques et les nombres de synthèse contiennent les données disponibles pour les diffusions SMS envoyées.
 
-* **Traités/envoyés** : nombre de SMS envoyés.
-* **Délivrés** : nombre de SMS délivrés.
-* **Bounces + Erreurs** : nombre d&#39;emails qui n&#39;ont pas pu être livrés.
+* **Traités/envoyés** : nombre de SMS envoyés.
+* **Délivrés** : nombre de SMS délivrés.
+* **Bounces + erreurs** : nombre de messages qui n’ont pas pu être remis.

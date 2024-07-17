@@ -7,7 +7,7 @@ badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-stand
 source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 96%
+ht-degree: 86%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 96%
 >
 >Vous devez faire glisser les mesures **[!UICONTROL Type de message]** dans vos tableaux pour fractionner vos données en fonction de vos types de diffusion, dans ce cas des diffusions In-App.
 
-Le rapport **In-App** fournit des détails liés aux diffusions In-App.
+Le rapport **In-App** fournit des détails relatifs aux diffusions In-App.
 
 Chaque tableau est représenté par des nombres et des graphiques de synthèse. Vous pouvez modifier le mode d&#39;affichage des détails dans leurs paramètres de visualisation respectifs.
 
 ![](assets/inapp_report.png)
 
-Le premier tableau **Résumé de l&#39;engagement In-App** (In-App Engagement Summary) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
+Le premier tableau **Résumé de l&#39;engagement In-App** est divisé en trois catégories : par jour, par application mobile et par diffusion. Elle contient les données disponibles pour la réactivité des destinataires à la diffusion :
 
 * **[!UICONTROL Traités/Envoyés]** : nombre total d&#39;envois pour la diffusion In-App.
 * **[!UICONTROL Délivrés]** : nombre de messages In-App envoyés avec succès, par rapport au nombre total de messages envoyés.
@@ -34,7 +34,7 @@ Le premier tableau **Résumé de l&#39;engagement In-App** (In-App Engagement Su
 
 ![](assets/inapp_report_1.png)
 
-Le deuxième tableau **Clics et rejets In-App** (In-App Clicks &amp; Dismissals) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur le comportement du destinataire par diffusion :
+Le deuxième tableau **Clics et rejets In-App** est divisé en trois catégories : par jour, par application mobile et par diffusion. Elle contient les données disponibles pour le comportement des destinataires par diffusion :
 
 * **[!UICONTROL Clics In-App]** : nombre total de destinataires ayant cliqué sur le bouton 1 ou le bouton 2.
 * **[!UICONTROL Clics In-App uniques]** : nombre de fois où les destinataires ont cliqué sur le bouton 1 ou le bouton 2.

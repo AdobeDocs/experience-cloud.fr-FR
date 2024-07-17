@@ -1,13 +1,13 @@
 ---
 title: Rapport des notifications push
-description: Grâce au rapport d'usine Notification push (Push notification), découvrez les performances de vos notifications push.
+description: Grâce au rapport d'usine des notifications push, découvrez les performances de vos notifications push.
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 97%
 >
 >Vous devez faire glisser les mesures **[!UICONTROL Type de message]** dans vos tableaux pour fractionner vos données en fonction de vos types de diffusion, dans ce cas des diffusions Notification push.
 
-Le rapport **notification push** (Push notification) fournit des informations détaillées sur les performances marketing des notifications push dans Adobe Campaign. Ce rapport d’usine permet de comprendre comment les utilisateurs interagissent avec les notifications push, les applications mobiles et les diffusions.
+Le rapport **notification push** fournit des informations détaillées sur les performances marketing des notifications push dans Adobe Campaign. Ce rapport d’usine permet de comprendre comment les utilisateurs interagissent avec les notifications push, les applications mobiles et les diffusions.
 
 ![](assets/dynamic_report_push.png)
 
 Chaque tableau est représenté par des nombres et des graphiques de synthèse. Vous pouvez modifier le mode d&#39;affichage des détails dans leurs paramètres de visualisation respectifs.
 
-Le premier tableau **Résumé d&#39;engagement des notifications push** (Push notification Engagement Summary) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
+Le premier tableau **Résumé de l&#39;engagement des notifications push** est divisé en trois catégories : par jour, par application mobile et par diffusion. Elle contient les données disponibles pour la réactivité des destinataires à la diffusion :
 
 * **[!UICONTROL Traités/envoyés]** : nombre total de notifications push envoyées.
-* **[!UICONTROL Délivrées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
+* **[!UICONTROL Diffusées]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
 * **[!UICONTROL Impressions]** : nombre de fois qu&#39;une notification push a été diffusée sur l&#39;appareil et laissée intacte dans le centre de notification. Dans la plupart des cas, le nombre d&#39;impressions doit être similaire au nombre délivrés. Cela garantit que l&#39;appareil reçoit le message et transmet cette information au serveur.
 * **[!UICONTROL Impressions uniques]** : nombre d&#39;impressions par destinataire.
 * **[!UICONTROL Taux de clics]** : pourcentage d&#39;utilisateurs ayant interagi avec la notification push.
@@ -34,7 +34,7 @@ Le premier tableau **Résumé d&#39;engagement des notifications push** (Push no
 
 ![](assets/dynamic_report_push_2.png)
 
-Le deuxième tableau **Clics et ouvertures des notifications push** (Push notification Clicks &amp; opens) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur le comportement du destinataire par diffusion :
+Le deuxième tableau **Clics et ouvertures des notifications push** est divisé en trois catégories : par jour, par application mobile et par diffusion. Elle contient les données disponibles pour le comportement des destinataires par diffusion :
 
 * **[!UICONTROL Impressions]** : nombre total de notifications push vues par les destinataires.
 * **[!UICONTROL Impressions uniques]** : nombre d&#39;impressions par destinataire.

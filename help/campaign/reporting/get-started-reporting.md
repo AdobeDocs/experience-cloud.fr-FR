@@ -4,7 +4,8 @@ description: Analysez le succès de vos campagnes dans des rapports dynamiques i
 audience: end-user
 level: Beginner
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 72%
@@ -21,7 +22,7 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
-**Gestion des rapports dynamiques** grâce à différentes fonctionnalités : actualisez les données en temps réel, imprimez vos rapports ou exportez-les au format CSV.
+**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : actualisation des données en temps réel, impression de vos rapports ou exportation au format CSV.
 
 En savoir plus :
 
@@ -32,7 +33,7 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-L’interface utilisateur web d’Adobe Campaign s’accompagne d’un ensemble de **rapports dynamiques prêts à l’emploi** vous permettant de mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
+L’interface utilisateur web d’Adobe Campaign est fournie avec un ensemble de **rapports dynamiques prêts à l’emploi** qui vous permet de mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de suivi, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
@@ -55,4 +56,3 @@ En savoir plus :
 * [Ajout de panneaux](adding-panels.md)
 * [Ajout de visualisations](adding-visualizations.md)
 * [Ajouter des composants](adding-components.md)
-

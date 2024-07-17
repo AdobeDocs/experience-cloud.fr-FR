@@ -4,7 +4,8 @@ description: Comprenez les résultats de vos rapports grâce à la liste des for
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 97%
@@ -19,7 +20,7 @@ ht-degree: 97%
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email {#email-delivery}
+## Diffusion Email  {#email-delivery}
 
 <table> 
  <thead> 
@@ -32,7 +33,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br/> </td> 
+   <td> Compte désactivé<br/> </td> 
    <td> @disabled<br/> </td> 
    <td> count(@failureReason=4)<br/> </td> 
    <td> </td> 
@@ -47,31 +48,31 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux sur la liste bloquée<br/> </td> 
    <td> @rateBlacklisted<br/> </td> 
    <td> @blacklisted/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br/> </td> 
-   <td> @bounces<br/> </td> 
+   <td> Rebonds + erreurs<br/> </td> 
+   <td> @Bounces<br/> </td> 
    <td> count(@status=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br/> </td> 
+   <td> Taux de rebond + erreurs<br/> </td> 
    <td> @rateBounces<br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click<br/> </td> 
+   <td> Clics<br/> </td> 
    <td> @clicks<br/> </td> 
    <td> count(@trackingUrlType=1 ou 10 ou 11)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br/> </td> 
+   <td> Taux de clics<br/> </td> 
    <td> @clickthrough<br/> </td> 
    <td> @uniqueclicks/@delivered<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
    <td> Diffusés<br/> </td> 
@@ -80,55 +81,55 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br/> </td> 
+   <td> Taux de délivrabilité<br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br/> </td> 
+   <td> Rebonds définitifs<br/> </td> 
    <td> @hardBounces<br/> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br/> </td> 
+   <td> Taux de rebond définitif<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br/> </td> 
+   <td> Domaine invalide<br/> </td> 
    <td> @invalidDomain<br/> </td> 
    <td> count(@failureReason=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br/> </td> 
+   <td> Boîte pleine<br/> </td> 
    <td> @mailBoxFull<br/> </td> 
    <td> count(@failureReason=5)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br/> </td> 
+   <td> Page miroir<br/> </td> 
    <td> @mirrorPage<br/> </td> 
    <td> count(@trackingUrlType=6)<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br/> </td> 
+   <td> Taux de page miroir<br/> </td> 
    <td> @rateMirrorPage<br/> </td> 
    <td> @mirrorPage/@delivered<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br/> </td> 
+   <td> Non connecté<br/> </td> 
    <td> @notConnected<br/> </td> 
    <td> count(@failureReason=6)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br/> </td> 
+   <td> Ouvertures<br/> </td> 
    <td> @uniqueOpens<br/> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br/> </td> 
    <td> </td> 
@@ -137,35 +138,35 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux d'ouverture<br/> </td> 
    <td> @rateOpens<br/> </td> 
    <td> @opens/@delivered<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br/> </td> 
+   <td> Quarantaine<br/> </td> 
    <td> @quarantine<br/> </td> 
    <td> isQuarantine=true<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br/> </td> 
+   <td> Taux de mise en quarantaine<br/> </td> 
    <td> @rateQuarantine<br/> </td> 
    <td> @quarantine/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr>
   <tr> 
-   <td> Rejected<br/> </td> 
+   <td> Rejetés<br/> </td> 
    <td> @rejected<br/> </td> 
    <td> count(@failureReason=20, @failureType=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br/> </td> 
+   <td> Taux de rejet<br/> </td> 
    <td> @rateRejected<br/> </td> 
    <td> @rejected/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br/> </td> 
-   <td> @sent<br/> </td> 
+   <td> @envoyé<br/> </td> 
    <td> @delivered + @bounces<br/> </td> 
    <td> </td> 
   </tr> 
@@ -176,10 +177,10 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounce<br/> </td> 
+   <td> Taux de rebonds temporaires<br/> </td> 
    <td> @rateSoftBounces<br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
   </tr> 
   <tr> 
    <td> Clics uniques<br/> </td> 
@@ -188,31 +189,31 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br/> </td> 
+   <td> Ouvertures uniques<br/> </td> 
    <td> @uniqueopens<br/> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br/> </td> 
-   <td> @unreachable<br/> </td> 
+   <td> Inatteignable <br/> </td> 
+   <td> @Inatteignable<br/> </td> 
    <td> count(@failureReason=3)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br/> </td> 
+   <td> Désabonnement<br/> </td> 
    <td> @unsubscribes<br/> </td> 
    <td> count(@trackingUrlType=3)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br/> </td> 
+   <td> Taux de désabonnement<br/> </td> 
    <td> @rateUnsubscribes<br/> </td> 
    <td> @unsubscribes/@delivered<br/> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br/> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br/> </td> 
+   <td> Utilisateur inconnu<br/> </td> 
    <td> @unknownUser<br/> </td> 
    <td> count(@failureReason=1)<br/> </td> 
    <td> </td> 

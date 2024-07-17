@@ -21,17 +21,17 @@ En outre, cette transition sera porteuse de nombreux avantages :
 * Intégration à Adobe Experience Platform
 * Interface utilisateur et expérience cohérentes
 
-Pour plus d’informations sur les principales fonctionnalités et les différences de concept, reportez-vous à la section [cette page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+Pour plus d&#39;informations sur les fonctionnalités clés et les différences de concept, consultez [cette page](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## Nouveautés
 
-Découvrez toutes les fonctionnalités offertes par [Interface utilisateur Web de Campaign](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/campaign-web-home) et [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home).
+Découvrez toutes les fonctionnalités proposées par [l&#39;interface utilisateur web de Campaign](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/campaign-web-home) et [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home).
 
 Pour que vous puissiez passer de Campaign Standard à v8, nous avons ajouté des fonctionnalités clés :
 
 >[!BEGINTABS]
 
->[!TAB Rapports dynamiques]
+>[!TAB Création de rapports dynamiques]
 
 Vous pouvez accéder aux rapports dynamiques qui fournissent des rapports en temps réel entièrement personnalisables pour mesurer l’impact de vos activités marketing.
 
