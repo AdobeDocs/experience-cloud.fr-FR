@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # Définir la période d&#39;un rapport{#defining-the-report-period}
+
+>[!NOTE]
+>
+>Les rapports de données sont disponibles pour les 13 derniers mois. Pour plus d’informations sur les périodes de conservation des données, contactez les consultants Adobe ou vos administrateurs techniques.
 
 Avant de commencer ou d&#39;accéder à un rapport, vous devez appliquer une période. La période donnée est accessible en haut à droite du rapport.
 

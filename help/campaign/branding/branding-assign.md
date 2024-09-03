@@ -7,18 +7,14 @@ role: Admin
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '471'
 ht-degree: 5%
 
 ---
 
 # Attribuer votre marque {#branding-assign}
-
->[!IMPORTANT]
->
->Les options de branding sont actuellement limitées aux diffusions email et push.
 
 ## Associer une marque à un modèle {#linking-a-brand-to-a-template}
 
@@ -54,7 +50,7 @@ Vous pouvez maintenant utiliser ce modèle pour envoyer vos diffusions.
 
 >[!TAB Adobe Campaign Web]
 
-Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer entièrement un modèle de diffusion. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer entièrement un modèle de diffusion. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/delivery-template)
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour ce faire :
 
