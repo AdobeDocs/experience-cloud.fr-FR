@@ -5,9 +5,9 @@ audience: end-user
 level: Beginner
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: b65dbece574778eada43497456ff0eed850a3598
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '287'
 ht-degree: 72%
 
 ---
@@ -16,9 +16,12 @@ ht-degree: 72%
 
 Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics.
 
-## Gérer les rapports {#manage-share-reports}
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Gérer les rapports</a></p></td><td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Créer vos rapports</a></p></td><td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
+</table>
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+## Gérer les rapports {#manage-share-reports}
 
 Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
@@ -31,8 +34,6 @@ En savoir plus :
 
 ## Créer vos rapports {#build-reports}
 
-<img src="assets/do-not-localize/icon_build.svg" width="60px">
-
 L’interface utilisateur web d’Adobe Campaign est fournie avec un ensemble de **rapports dynamiques prêts à l’emploi** qui vous permet de mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de suivi, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
@@ -44,8 +45,6 @@ En savoir plus :
 * [Liste des rapports](defining-the-report-period.md)
 
 ## Personnaliser vos rapports {#customize-reports}
-
-<img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
 **Personnalisez vos rapports** grâce aux fonctionnalités de conception de rapports dynamiques : ajoutez autant de composants que nécessaire (panneaux et tableaux à structure libre) pour analyser vos données à l’aide des mesures et des dimensions disponibles.
 
