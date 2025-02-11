@@ -4,20 +4,22 @@ description: Découvrez comment gérer les messages transactionnels avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-hidefromtoc: true
-hide: true
 role: Data Engineer
 level: Experienced
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs migrés par le Campaign Standard"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 93%
+source-wordcount: '678'
+ht-degree: 88%
 
 ---
 
 # Gestion des messages transactionnels {#managing-transactional-messages}
+
+>[!AVAILABILITY]
+>
+>Pour l’instant, les messages transactionnels utilisant des API REST ne sont disponibles que pour le canal e-mail et pour les événements transactionnels (les données d’enrichissement sont disponibles via la payload uniquement, comme dans Adobe Campaign V8).
 
 Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site Web.
 
@@ -44,7 +46,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API.
 
-* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement.
+* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement
 
 ### En-tête de requête POST
 
@@ -63,7 +65,7 @@ Vous devez ajouter un jeu de caractères, par exemple **utf-8**. Cette valeur d�
 
 ### Corps de requête POST
 
-Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition. Le bouton d’aperçu de l’API dans l’écran de définition des ressources fournit un exemple de requête.
+Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition. Le bouton Aperçu de l’API dans l’écran de définition de la ressource fournit un exemple de requête.
 
 Il est possible d’ajouter les paramètres facultatifs suivants au contenu de l’événement pour gérer l’envoi de messages transactionnels liés à cet événement :
 
@@ -134,10 +136,9 @@ Dans la réponse, le champ &quot;status&quot; vous permet de savoir si l’évé
 
 * **pending** : l’événement est en attente ; il se trouve dans cet état lorsqu’il vient d’être déclenché.
 * **processing** : l’événement est en attente de diffusion ; il est transformé en message et ce message est envoyé.
-* **paused** : le processus d’événement est en pause. Il n’est plus traité, mais il est conservé dans une file d’attente dans la base de données Adobe Campaign.
+* **paused** : le processus d’événement est en pause. Il n’est plus traité, mais conservé dans une file d’attente, dans la base de données Adobe Campaign.
 * **processed** : l’événement a été traité et le message a bien été envoyé.
 * **ignored** : l’événement a été ignoré par la diffusion, généralement lorsqu’une adresse est en quarantaine.
 * **deliveryFailed** : une erreur de diffusion s’est produite pendant le traitement de l’événement.
 * **routageFailed** : la phase de routage a échoué ; cette situation peut se produire, par exemple, lorsque le type d’événement spécifié est introuvable.
 * **tooOld** : l’événement a expiré avant d’être traité ; cette situation peut se produire pour diverses raisons, par exemple lorsqu’un envoi échoue à plusieurs reprises (l’événement n’est plus à jour) ou lorsque le serveur ne peut plus traiter les événements après une surcharge.
-* **targetingFailed** : Campaign Standard n&#39;a pas pu enrichir un lien utilisé pour le ciblage des messages.
