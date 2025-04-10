@@ -6,12 +6,12 @@ content-type: reference
 topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs migrés par le Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
+source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 88%
+source-wordcount: '752'
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!AVAILABILITY]
 >
->Pour l’instant, les messages transactionnels utilisant des API REST ne sont disponibles que pour le canal e-mail et pour les événements transactionnels (les données d’enrichissement sont disponibles via la payload uniquement, comme dans Adobe Campaign V8).
+>Pour l’instant, les messages transactionnels à l’aide des API REST sont disponibles pour les canaux e-mail et SMS. Elle n’est disponible que pour les événements transactionnels (les données d’enrichissement ne sont disponibles que via la payload, comme dans Adobe Campaign V8).
 
 Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site Web.
 
@@ -44,8 +44,6 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API.
-
 * **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement
 
 ### En-tête de requête POST
@@ -65,7 +63,7 @@ Vous devez ajouter un jeu de caractères, par exemple **utf-8**. Cette valeur d�
 
 ### Corps de requête POST
 
-Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition. Le bouton Aperçu de l’API dans l’écran de définition de la ressource fournit un exemple de requête.
+Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition.
 
 Il est possible d’ajouter les paramètres facultatifs suivants au contenu de l’événement pour gérer l’envoi de messages transactionnels liés à cet événement :
 
@@ -75,6 +73,40 @@ Il est possible d’ajouter les paramètres facultatifs suivants au contenu de l
 >[!NOTE]
 >
 >Les valeurs des paramètres &quot;expiration&quot; et &quot;scheduled&quot; suivent le format ISO 8601. Ce format spécifie l’utilisation de la lettre majuscule &quot;T&quot; pour séparer la date et l’heure. Il peut toutefois être supprimé de l’entrée ou de la sortie pour une meilleure lisibilité.
+
+### Paramètres du canal de communication
+
+Selon le canal à utiliser, la payload doit contenir les paramètres ci-dessous :
+
+* Canal e-mail : « mobilePhone »
+* Canal SMS : « e-mail »
+
+Si la payload ne contient que du « mobilePhone », le canal de communication SMS est déclenché. Si la payload ne contient que des « e-mails », le canal de communication par e-mail est déclenché.
+
+L’exemple ci-dessous montre une payload dans laquelle une communication SMS sera déclenchée :
+
+```
+curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Cache-Control: no-cache' \
+--header 'X-Api-Key: <API_KEY>' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Content-Length: 79' \
+--data '
+{
+  "mobilePhone":"+9999999999",
+  "scheduled":"2017-12-01 08:00:00.768Z",
+  "expiration":"2017-12-31 08:00:00.768Z",
+  "ctx":
+  {
+    "cartAmount": "$ 125",
+    "lastProduct": "Leather motorbike jacket",
+    "firstName": "Jack"
+  }
+}'
+```
+
+Si la payload comprend à la fois « email » et « mobilePhone », la méthode de communication par défaut est l’e-mail. Pour envoyer un SMS lorsque les deux champs sont présents, vous devez le spécifier explicitement dans la payload à l’aide du paramètre « wishedChannel ».
 
 ### Réponse à la requête POST
 
@@ -97,7 +129,10 @@ Requête POST pour envoyer l’événement.
 -H 'Content-Length:79'
 
 {
-  "email":"test@example.com",
+  "
+  
+  
+  ":"test@example.com",
   "scheduled":"2017-12-01 08:00:00.768Z",
   "expiration":"2017-12-31 08:00:00.768Z",
   "ctx":
