@@ -28,7 +28,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma, proc
 
    ![](assets/custom_field_1.png)
 
-1. Identifiez votre schéma de destinataire personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma nms:recipient intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifiez votre schéma de destinataire personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma nms:recipient intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Ajoutez votre champ personnalisé à l’éditeur de schéma.
 
@@ -42,7 +42,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma, proc
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Identifiez ensuite votre schéma broadLogRcp personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma de log de diffusion intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifiez ensuite votre schéma broadLogRcp personnalisé et sélectionnez-le. Si vous n&#39;avez pas encore étendu le schéma de log de diffusion intégré, reportez-vous à [cette procédure](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Ajoutez le même champ personnalisé que votre schéma Destinataire dans l’éditeur de schéma.
 
@@ -50,7 +50,7 @@ Pour ajouter un nouveau champ de profil, vous devez étendre votre schéma, proc
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données via **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Mettre à jour la structure de la base de données]** et exécutez la commande Mettre à jour la structure de la base de données. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données via **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Mettre à jour la structure de la base de données]** et exécutez la commande Mettre à jour la structure de la base de données. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 

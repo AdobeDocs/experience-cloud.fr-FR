@@ -26,7 +26,7 @@ Votre modèle sera associé à la marque. Dans l&#39;éditeur d&#39;email, les �
 
 >[!TAB Adobe Campaign V8]
 
-Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer entièrement un modèle de diffusion. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré, convertir une diffusion existante en modèle ou créer entièrement un modèle de diffusion. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates)
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour ce faire :
 
@@ -98,7 +98,7 @@ Pour créer une diffusion autonome, procédez comme suit.
 
 1. Une fois configuré, sélectionnez **OK**.
 
-1. personnaliser davantage vos diffusions ; Pour plus d&#39;informations sur la création d&#39;un email, reportez-vous à la section [Concevoir et envoyer des emails](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) .
+1. personnaliser davantage vos diffusions ; Pour plus d&#39;informations sur la création d&#39;un email, reportez-vous à la section [Concevoir et envoyer des emails](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/email/create-email) .
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +124,6 @@ Pour créer une diffusion autonome, procédez comme suit.
 
    ![](assets/branding_assign_web_7.png)
 
-1. personnaliser davantage vos diffusions ; Pour plus d&#39;informations sur la création d&#39;un email, reportez-vous à la section [Créer votre premier email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) .
+1. personnaliser davantage vos diffusions ; Pour plus d&#39;informations sur la création d&#39;un email, reportez-vous à la section [Créer votre premier email](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/email/create-email) .
 
 >[!ENDTABS]
