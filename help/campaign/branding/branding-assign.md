@@ -30,7 +30,7 @@ Pour créer un modèle de diffusion, vous pouvez dupliquer un modèle intégré,
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour ce faire :
 
-1. Accédez à **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **** dans l’explorateur Adobe Campaign.
+1. Accédez à **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **&#x200B;**&#x200B;dans l’explorateur Adobe Campaign.
 
 1. Sélectionnez un modèle de diffusion ou dupliquez-en un existant.
 
