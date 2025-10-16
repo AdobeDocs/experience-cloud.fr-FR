@@ -4,11 +4,11 @@ description: Découvrez comment gérer les messages transactionnels avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 76%

@@ -1,38 +1,38 @@
 ---
-title: Recommendations et limitations
-description: Recommendations et limitations lors de la migration vers les API REST de Campaign v8.
+title: Recommandations et limitations
+description: Recommandations et limitations lors de la migration vers les API REST de Campaign v8.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs migrés par le Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
 
-# Recommendations et limitations {#limitations}
+# Recommandations et limitations {#limitations}
 
 ## Autorisations et sécurité {#permissions}
 
 ### Mappage des profils de produit
 
-En Campaign Standard, le rôle d’administrateur élevé vous a été accordé un accès aux API, quel que soit votre profil de produit attribué. Campaign v8 introduit un ensemble différent de profils de produit, ce qui nécessite de mapper les profils de produits Campaign Standard aux profils de produits Campaign v8.
+Dans Campaign Standard, vous avez obtenu un accès élevé au rôle d’administrateur aux API, quel que soit le profil de produit qui vous a été attribué. Campaign v8 introduit un ensemble différent de profils de produit, ce qui nécessite de mapper les profils de produits Campaign Standard aux profils de produits Campaign v8.
 
 Avec la migration, deux profils de produit sont ajoutés à vos comptes techniques existants ou précréés : Administrateur et Message Center (pour l’accès aux API transactionnelles). Vérifiez le mappage des profils de produit et attribuez le profil de produit nécessaire si vous ne souhaitez pas que le profil de produit Administrateur soit mappé à votre compte technique.
 
-### ID du client
+### ID de client
 
-Après la migration, pour les intégrations futures, il est recommandé d’utiliser votre **identifiant client Campaign v8** dans les URL REST, en remplaçant votre identifiant client de Campaign Standard précédent.
+Après la migration, pour les intégrations futures, il est recommandé d’utiliser votre **identifiant client Campaign v8** dans les URL REST, en remplaçant votre identifiant client Campaign Standard précédent.
 
 ### Utilisation des clés
 
-La gestion des valeurs PKey diffère entre Campaign Standard et Campaign v8. Si vous stockiez des clés PKey avec Campaign Standard, assurez-vous que votre implémentation crée dynamiquement les appels API suivants à l’aide des clés PKey ou hrefs obtenus à partir d’appels API précédents.
+La gestion des valeurs PKey diffère entre Campaign Standard et Campaign v8. Si vous stockiez des clés PKey avec Campaign Standard, assurez-vous que votre implémentation crée dynamiquement les appels API suivants à l’aide des clés PKey ou href obtenus à partir d’appels API précédents.
 
 ## API disponibles {#deprecated}
 
@@ -70,9 +70,9 @@ Pour l’instant, les API REST répertoriées ci-dessous peuvent être utilisée
 
 Certains champs de la base de données sont supprimés lors de la migration. Lors de l’utilisation d’un champ déposé, les API REST renverront des valeurs vides. À l’avenir, tous les champs déposés seront abandonnés et supprimés.
 
-## POST avec les ressources associées
+## POST avec ressources liées
 
-Lors de l’utilisation du format de corps de requête suivant, avec « VehicleOwner » représentant le lien vers « nms:recipient » :
+Lors de l’utilisation du format de corps de requête suivant, avec « VehicleOwner » représentant le lien vers « nms :recipient » :
 
 ```
 {
@@ -89,18 +89,18 @@ Les informations sur le lien sont ignorées. Par conséquent, un nouvel enregist
 
 Dans Campaign v8, lorsque la même structure de corps de requête est utilisée et que le « véhicule » est lié à un profil, une erreur se produit. Cette erreur se produit car la propriété « firstName » n&#39;est pas reconnue comme valide pour « cusVehicle ». Cependant, un corps de requête comprenant uniquement les attributs sans lien fonctionne sans aucun problème.
 
-## Opérations du PATCH
+## Opérations de PATCH
 
-* Campaign v8 ne prend pas en charge les PATCH dont le corps de requête est vide : il renvoie un statut 204 Aucun contenu .
-* Bien que Campaign Standard prenne en charge le PATCH sur les éléments/attributs d’un schéma, notez que les opérations de PATCH à l’emplacement ne sont pas prises en charge dans Campaign v8. Toute tentative de PATCH sur l&#39;emplacement entraînera une erreur interne du serveur 500 avec un message d&#39;erreur indiquant que la propriété &#39;zipCode&#39; n&#39;est pas valide pour la ressource &#39;profile&#39;.
+* Campaign v8 ne prend pas en charge PATCH avec un corps de requête vide : il renvoie un statut 204 Aucun contenu .
+* Bien que Campaign Standard prenne en charge PATCH sur les éléments/attributs d’un schéma, notez que les opérations PATCH à l’emplacement ne sont pas prises en charge dans Campaign v8. Toute tentative de PATCH sur place entraînera une erreur de serveur interne 500 avec un message d’erreur indiquant que la propriété « zipCode » n’est pas valide pour la ressource « profile ».
 
 ## Réponses REST
 
 La section ci-dessous répertorie les différences mineures entre les réponses REST de Campaign Standard et de v8.
 
-* Pour les enregistrements à GET unique, la réponse inclut le href dans la réponse.
+* Pour les enregistrements GET uniques, la réponse inclut le href dans la réponse.
 * Lorsqu’elle est interrogée avec l’attribut , Campaign v8 fournit Count et Pagination dans la réponse.
-* Après des opérations POST, les valeurs des ressources liées sont renvoyées dans la réponse.
+* Après les opérations POST, les valeurs des ressources liées sont renvoyées dans la réponse.
 
 ## Codes d’erreur et messages
 
@@ -125,9 +125,9 @@ Avec Campaign v8, le fuseau horaire n’est affiché que dans le cadre des appel
 
 ## Workflows - Déclenchement de signal externe
 
-L’API Campaign Standard Workflow GET renvoie des noms de paramètre tels que les variables d’instance de workflow et leurs types de données (booléen, chaîne, etc.). Il est utilisé pour créer un corps de requête JSON formaté approprié lors du déclenchement du signal via un appel API de POST.
+L’API Campaign Standard Workflow GET renvoie des noms de paramètre tels que les variables d’instance de workflow et leurs types de données (booléen, chaîne, etc.). Il est utilisé pour créer un corps de requête JSON correctement formaté lors du déclenchement du signal via un appel de l’API POST.
 
-Campaign v8 ne prend pas en charge les variables d’instance de workflow publicitaire, mais s’attend à ce que les développeurs et développeuses les connaissent. Ainsi, après la migration, les informations de paramètres dans le corps de la requête du POST doivent être créées sans que les informations de paramètres ne soient disponibles dans la réponse de l’API GET.
+Campaign v8 ne prend pas en charge les variables d’instance de workflow publicitaire, mais s’attend à ce que les développeurs et développeuses les connaissent. Ainsi, après la migration, les informations sur les paramètres dans le corps de la requête POST devront être construites sans que les informations sur les paramètres ne soient disponibles dans la réponse de l’API GET.
 
 <!--## Transactional messages
 

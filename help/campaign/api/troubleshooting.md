@@ -1,13 +1,13 @@
 ---
 title: Résolution des problèmes d’API
 description: Découvrez les problèmes courants liés aux API Campaign Standard
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 97%
+source-wordcount: '359'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Dans la réponse, la valeur ORGANIZATION_ID doit être la même que dans votre p
 }
 ```
 
-* **Lors d’une requête sur Adobe.io, vous obtenez {&quot;code&quot;:500, &quot;message&quot;:&quot; Une erreur s’est produite. Vérifiez votre URI et réessayez.&quot;}**
+* **Lorsque vous effectuez une requête à Adobe.io, vous obtenez {« code »:500, « message »:« Oups. Une erreur s’est produite. Vérifiez votre URI et réessayez.&quot;}**
 
 Adobe.io déclare votre URI comme non valide : l’URI que vous demandez n’est probablement pas valide. Sur Adobe.io, lorsque vous sélectionnez le service Campaign, vous obtenez un sélecteur avec une liste des valeurs organization_ids possibles. Vous devez vérifier que celui choisi est celui que vous avez inséré dans votre URL.
 

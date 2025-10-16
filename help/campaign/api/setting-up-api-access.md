@@ -4,11 +4,11 @@ description: Découvrez comment configurer l’accès aux API de Campaign Stand
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 18979fea28f4f3adce1139293203a59876831313
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 95%
@@ -25,7 +25,7 @@ Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comm
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec Adobe Campaign Service** dans [Adobe Developer](https://developer.adobe.com/) et configurez-la. Vos informations d’identification seront alors générées (clé d’API, secret client...).
-1. **Créez des informations d’identification OAuth Server-to-Server** en suivant ces [étapes de mise en oeuvre](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **Créez des informations d’identification de serveur à serveur OAuth** en suivant ces [étapes d’implémentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -57,7 +57,7 @@ Pour établir une session d’API Adobe I/O de service à service sécurisée, 
 
   ![texte alternatif](assets/tenant.png)
 
-## Dépannage
+## Résolution des problèmes
 
 Lors de l’intégration d’Adobe IO, si l’erreur suivante s’affiche :
 
