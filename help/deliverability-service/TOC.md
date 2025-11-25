@@ -4,9 +4,9 @@ user-guide-description: Service de délivrabilité d’Adobe
 breadcrumb-title: Service de délivrabilité d’Adobe
 hide: true
 source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
