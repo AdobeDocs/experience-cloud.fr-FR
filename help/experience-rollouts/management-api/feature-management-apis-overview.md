@@ -1,9 +1,9 @@
 ---
 title: Présentation des API de gestion des fonctionnalités
 description: Présentation des API de gestion des déploiements d’expérience, qui vous permettent de créer, lire, mettre à jour et supprimer des indicateurs de fonctionnalité, des groupes de fonctionnalités et des versions par programmation.
-source-git-commit: 6ecedbfc6c7de392f214f3f8f2e71aa18e1bacb9
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Les API de gestion des déploiements d’expérience vous permettent de gérer l
 Les API de gestion suivantes sont disponibles :
 
 * [API Feature flags management](feature-flags-management-api.md) — Créez, lisez, mettez à jour et supprimez des indicateurs de fonctionnalité pour une application.
-* [API Feature group management](feature-group-management-api.md) — Créez, lisez, mettez à jour, supprimez et contrôlez les plans de déploiement automatisé pour les groupes de fonctionnalités.
+* [API Feature group management](feature-group-management-api.md) : permet de créer, lire, mettre à jour et supprimer des groupes de fonctionnalités.
 * [API Release Management](release-management-apis.md) — Créez et modifiez des groupes de fonctionnalités et des versions interéquipes.
 
 ## Exigences communes {#common-requirements}
@@ -40,11 +40,10 @@ Les clés et jetons API doivent être configurés séparément pour les environn
 Les guides suivants permettent de créer des payloads d’API correctes :
 
 * [Obtenir l’ID client pour une application](get-client-id.md) — Recherchez l’ID client numérique requis par les indicateurs de fonctionnalité et les API de gestion des groupes de fonctionnalités.
-* [Obtenir les critères d’audience souhaités &#x200B;](get-audience-criteria.md) — Utilisez la console et l’API GET pour générer la structure JSON de critères d’audience appropriée.
+* [Obtenir les critères d’audience souhaités ](get-audience-criteria.md) — Utilisez la console et l’API GET pour générer la structure JSON de critères d’audience appropriée.
 * [API Management Patch](management-patch-api.md) — Mettez à jour les champs individuels d&#39;un indicateur de fonctionnalité, d&#39;un groupe de fonctionnalités ou d&#39;un groupe de fonctionnalités interéquipes sans transmettre l&#39;objet complet.
 
 ## Voir également {#see-also}
 
-* [API de fonctionnalités GET V3](../feature-api/get-feature-api-v3.md)
-* [API de fonctionnalités GET V2](../feature-api/get-feature-api-v2.md)
+* **API de fonctionnalités GET V3** et **API de fonctionnalités GET V2** — Pour obtenir des références complètes, consultez la section API de fonctionnalités de ce guide.
 * [S’abonner à l’application API](../guides/integrate/subscribe-to-api-application.md)

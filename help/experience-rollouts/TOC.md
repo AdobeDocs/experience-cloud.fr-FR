@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Déploiements d’Adobe Experience
 user-guide-description: Découvrez comment utiliser les déploiements d’Adobe Experience pour gérer les indicateurs de fonctionnalité, les déploiements contrôlés et les versions ciblées dans vos applications.
-source-git-commit: cd1d882942705f51440ae99f4ce6daf467d3283c
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
@@ -77,10 +77,6 @@ ht-degree: 6%
       + [Association d’environnements à une application](guides/cross-environment/associate-environments.md)
       + [Affichage des indicateurs de fonctionnalité dans les environnements](guides/cross-environment/view-feature-flags-across-environments.md)
       + [Importer les indicateurs de fonctionnalité](guides/cross-environment/import-feature-flags.md)
-   + Déploiements automatiques {#automated-rollouts}
-      + [Créer un déploiement automatisé](guides/automated-rollouts/create-automated-rollout.md)
-      + [Concept de déploiement automatisé](guides/automated-rollouts/automated-rollout-concept.md)
-      + [Surveiller et modifier un plan de déploiement](guides/automated-rollouts/monitor-edit-rollout-plan.md)
    + Support technique {#support}
       + [Résolution des problèmes](guides/support/troubleshooting.md)
       + [Obtenir de l’aide](guides/support/get-support.md)
@@ -93,14 +89,14 @@ ht-degree: 6%
          + [Guide d’intégration de Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Notes de mise à jour de Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [évaluation des performances de SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-<!--+ Feature API {#feature-api}
-  + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-  + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Management API {#management-api}
-  + [Feature management APIs overview](management-api/feature-management-apis-overview.md)
-  + [Feature flags management API](management-api/feature-flags-management-api.md)
-  + [Feature group management API](management-api/feature-group-management-api.md)
-  + [Release management APIs](management-api/release-management-apis.md)
-  + [Get client ID for an application](management-api/get-client-id.md)
-  + [Get desired audience criteria](management-api/get-audience-criteria.md)
-  + [Management patch API](management-api/management-patch-api.md)-->
++ API Feature {#feature-api}
+   + [API de fonctionnalités GET V3](feature-api/get-feature-api-v3.md)
+   + [API de fonctionnalités GET V2](feature-api/get-feature-api-v2.md)
++ API Management {#management-api}
+   + [Présentation des API de gestion des fonctionnalités](management-api/feature-management-apis-overview.md)
+   + [API Feature flags management](management-api/feature-flags-management-api.md)
+   + [API Feature group Management](management-api/feature-group-management-api.md)
+   + [API Release Management](management-api/release-management-apis.md)
+   + [Obtention de l’identifiant client pour une application](management-api/get-client-id.md)
+   + [Obtenir les critères d’audience souhaités](management-api/get-audience-criteria.md)
+   + [API de correctif de gestion](management-api/management-patch-api.md)

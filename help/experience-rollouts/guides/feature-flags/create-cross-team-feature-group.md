@@ -1,9 +1,9 @@
 ---
 title: Créer un groupe de fonctionnalités multi-équipes
 description: Découvrez comment créer un groupe de fonctionnalités interéquipes dans les déploiements d’Adobe Experience afin de coordonner les indicateurs de fonctionnalités entre les applications détenues par différentes équipes.
-source-git-commit: a1ed4582217001ffcf500cd7b634d9959adbe028
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Avant de créer un groupe de fonctionnalités multi-équipes, vérifiez les points suivants :
 
-* Vous avez accès à la console ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
+* Vous avez accès à la console ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
 * Vous appartenez à une équipe et votre application est intégrée
 * Vous disposez du rôle **Administrateur de fonctionnalités** — voir [Rôles utilisateur](../teams/user-roles.md)
 * Vous avez créé les indicateurs de fonctionnalité à inclure. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
@@ -34,7 +34,7 @@ Démarrez le processus de création à partir de la section Versions de la conso
 Fournissez un titre, une clé, une description et, éventuellement, une balise . Configurez les options suivantes :
 
 * **Déploiement en pourcentage** — Définissez la proportion de l’audience qui recevra la fonctionnalité.
-* **Type de déploiement** — Choisissez Manuel ou Automatisé. Voir [Déploiements automatisés](../automated-rollouts/automated-rollout-concept.md) pour plus d’informations sur le fonctionnement des déploiements automatisés.
+* **Type de déploiement** — Défini sur Manuel. Le pourcentage est géré étape par étape au fur et à mesure de la progression du déploiement.
 
 >[!NOTE]
 >
@@ -91,4 +91,3 @@ Voir [Versions et groupes de fonctionnalités inter-équipes](releases-and-cross
 
 * [Versions et groupes de fonctionnalités interéquipes](releases-and-cross-team-feature-groups.md)
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
-* [Créer un déploiement automatisé](../automated-rollouts/create-automated-rollout.md)

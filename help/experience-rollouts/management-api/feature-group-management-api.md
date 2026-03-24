@@ -1,10 +1,10 @@
 ---
 title: API Feature group Management
 description: Référence d’API pour l’API de gestion des groupes de fonctionnalités des déploiements d’expérience, y compris les points d’entrée pour obtenir, créer, mettre à jour, supprimer et contrôler les plans de déploiement pour les groupes de fonctionnalités.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 16%
+source-wordcount: '575'
+ht-degree: 17%
 
 ---
 
@@ -90,28 +90,6 @@ Le corps de la requête utilise l’objet [groupe de fonctionnalités](#feature-
 }
 ```
 
-**Exemple — déploiement automatisé :**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### Réponse {#create-response}
 
 | État | Description |
@@ -136,29 +114,6 @@ Met à jour un groupe de fonctionnalités existant. Transmettez la même structu
 | `200` | Réussite. Le corps de la réponse est l&#39;objet du groupe de fonctionnalités mis à jour. |
 | `400` | Payload non valide. |
 | `403` | Autorisations insuffisantes. |
-
-## Suspendre, reprendre ou abandonner un plan de déploiement {#pause-resume-abort}
-
-Contrôle l’exécution d’un plan de déploiement de tests A/B ou automatisés en cours.
-
-| Action | Point d’entrée |
-|---|---|
-| **Reprendre** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **Pause** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **Abandon** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### Corps de la requête {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### Réponse {#control-response}
-
-Renvoie `true` en cas de succès.
 
 ## Supprimer le groupe de fonctionnalités {#delete-group}
 
@@ -230,4 +185,3 @@ Chaque bloc dans `phaseRollOutBlocks` est soit un **bloc de phase** (`isPhaseBlo
 * [Présentation des API de gestion des fonctionnalités](feature-management-apis-overview.md)
 * [API Feature flags management](feature-flags-management-api.md)
 * [API de correctif de gestion](management-patch-api.md)
-* [Créer un déploiement automatisé](../guides/automated-rollouts/create-automated-rollout.md)
