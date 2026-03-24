@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Association d’environnements à une application {#associate-environments}
 
-La liaison de vos instances d’application à travers les environnements permet une visibilité inter-environnements et des workflows d’importation. Pour configurer ce paramètre, vous devez disposer du rôle **Admin**. Voir [ Rôles utilisateur ](../teams/user-roles.md) si vous devez vérifier votre rôle.
+La liaison de vos instances d’application à travers les environnements permet une visibilité inter-environnements et des workflows d’importation. Pour configurer ce paramètre, vous devez disposer du rôle **Admin**. Voir [&#x200B; Rôles utilisateur &#x200B;](../teams/user-roles.md) si vous devez vérifier votre rôle.
 
 Pour en savoir plus sur son utilité, consultez la section [Concept interenvironnemental](cross-environment-concept.md).
 

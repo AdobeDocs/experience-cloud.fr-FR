@@ -29,9 +29,9 @@ Une fois votre demande approuvée, vous recevrez les autorisations associées au
 
 Une fois l’accès accordé :
 
-1. Accédez à [](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
+1. Accédez à [&#128279;](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
 2. Sélectionnez **Déploiements d’expérience** dans le sélecteur d’applications.
-3. Sélectionnez l’environnement approprié : **Évaluation** pour les tests, **Production** pour les déploiements en direct. Voir [ Présentation des environnements](environments-overview.md) pour plus d’informations.
+3. Sélectionnez l’environnement approprié : **Évaluation** pour les tests, **Production** pour les déploiements en direct. Voir [&#x200B; Présentation des environnements](environments-overview.md) pour plus d’informations.
 
 ## Premières étapes après la connexion {#first-steps}
 

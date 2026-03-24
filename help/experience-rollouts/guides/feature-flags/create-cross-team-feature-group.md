@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Avant de créer un groupe de fonctionnalités multi-équipes, vérifiez les points suivants :
 
-* Vous avez accès à la console ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
+* Vous avez accès à la console ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
 * Vous appartenez à une équipe et votre application est intégrée
 * Vous disposez du rôle **Administrateur de fonctionnalités** — voir [Rôles utilisateur](../teams/user-roles.md)
 * Vous avez créé les indicateurs de fonctionnalité à inclure. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)

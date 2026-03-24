@@ -30,7 +30,7 @@ La logique imbriquée vous permet de combiner plusieurs conditions d’audience 
    * `(1 and 2) or 3`
    * `(1 and 2) or (3 and 4)`
 
-Il s’agit du même mécanisme que celui utilisé pour les règles de pourcentage en combinaison avec d’autres critères. Consultez [ Ajouter des règles de pourcentage dans les critères d’audience ](adding-percentage-rules.md) pour obtenir des exemples de travail.
+Il s’agit du même mécanisme que celui utilisé pour les règles de pourcentage en combinaison avec d’autres critères. Consultez [&#x200B; Ajouter des règles de pourcentage dans les critères d’audience &#x200B;](adding-percentage-rules.md) pour obtenir des exemples de travail.
 
 ## Voir également {#see-also}
 

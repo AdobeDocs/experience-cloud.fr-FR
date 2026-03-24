@@ -40,7 +40,7 @@ Les clés et jetons API doivent être configurés séparément pour les environn
 Les guides suivants permettent de créer des payloads d’API correctes :
 
 * [Obtenir l’ID client pour une application](get-client-id.md) — Recherchez l’ID client numérique requis par les indicateurs de fonctionnalité et les API de gestion des groupes de fonctionnalités.
-* [Obtenir les critères d’audience souhaités ](get-audience-criteria.md) — Utilisez la console et l’API GET pour générer la structure JSON de critères d’audience appropriée.
+* [Obtenir les critères d’audience souhaités &#x200B;](get-audience-criteria.md) — Utilisez la console et l’API GET pour générer la structure JSON de critères d’audience appropriée.
 * [API Management Patch](management-patch-api.md) — Mettez à jour les champs individuels d&#39;un indicateur de fonctionnalité, d&#39;un groupe de fonctionnalités ou d&#39;un groupe de fonctionnalités interéquipes sans transmettre l&#39;objet complet.
 
 ## Voir également {#see-also}

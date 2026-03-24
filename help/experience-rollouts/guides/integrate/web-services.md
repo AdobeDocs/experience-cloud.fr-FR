@@ -17,7 +17,7 @@ Les services principaux s’intègrent aux déploiements d’expérience à l’
 
 | Langue | Guide d’intégration | Notes de mise à jour |
 |---|---|---|
-| **Java** | [ Guide d’intégration de Java SDK ](../sdk-releases/java/java-sdk-integration-guide.md) | [Notes de mise à jour de Java SDK ](../sdk-releases/java/java-sdk-release-notes.md) |
+| **Java** | [&#x200B; Guide d’intégration de Java SDK &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [Notes de mise à jour de Java SDK &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
 | **Node.js** | [Guide d’intégration de SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Notes de mise à jour de SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
 
 ## Other languages {#other-languages}

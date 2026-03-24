@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # Abonnement à l’application API dans Adobe Developer Console {#subscribe-to-api}
 
-Pour appeler l’API de déploiements d’expérience à partir de votre application, vous devez vous y abonner via [](https://developer.adobe.com/console). Cela donne à votre application un identifiant client qu’Experience Rollouts utilise pour identifier l’appelant.
+Pour appeler l’API de déploiements d’expérience à partir de votre application, vous devez vous y abonner via [&#128279;](https://developer.adobe.com/console). Cela donne à votre application un identifiant client qu’Experience Rollouts utilise pour identifier l’appelant.
 
 ## Conditions préalables {#prerequisites}
 
@@ -24,7 +24,7 @@ Avant de vous abonner, vérifiez les points suivants :
 
 Pour abonner votre application à l’API de déploiements d’expérience, procédez comme suit :
 
-1. Accédez à [](https://developer.adobe.com/console) et connectez-vous avec les informations d’identification de votre organisation.
+1. Accédez à [&#128279;](https://developer.adobe.com/console) et connectez-vous avec les informations d’identification de votre organisation.
 2. Sélectionnez votre projet ou créez-en un.
 3. Sélectionnez **Ajouter une API**.
 4. Recherchez et sélectionnez **API de déploiements d’expérience**.
