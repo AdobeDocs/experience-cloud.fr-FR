@@ -1,28 +1,40 @@
 ---
 title: Déploiements d’Adobe Experience
 description: Découvrez comment utiliser les déploiements d’Adobe Experience pour diffuser des fonctionnalités en toute sécurité et progressivement avec des déploiements contrôlés, des indicateurs de fonctionnalité et une gestion d’audience ciblée.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
+source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 0%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
-
 # Déploiements d’Adobe Experience {#experience-rollouts-home}
 
-Les déploiements d’Adobe Experience Platform sont une plateforme de gestion des fonctionnalités et de publication contrôlée qui aide les équipes produit à fournir de nouvelles fonctionnalités en toute sécurité, progressivement et avec moins de risques.
+Les déploiements d’Adobe Experience permettent aux équipes produit d’expédier de nouvelles fonctionnalités progressivement et en toute sécurité, sans redéploiements ni temps d’arrêt. Vous définissez qui voit quoi, quand et à quel rythme. En cas de problème, vous désactivez immédiatement la fonctionnalité. Si tout se passe bien, vous augmentez l’audience selon votre calendrier.
 
-Au lieu d’activer une nouvelle fonctionnalité pour tout le monde en même temps, les déploiements d’expérience permettent aux équipes produits :
+## Ce que vous pouvez faire
 
-* **Fonctionnalités de version graduellement** — Commencez par un petit pourcentage d’utilisateurs, puis augmentez au fil du temps. Si quelque chose ne se comporte pas comme prévu, la fonctionnalité peut être rapidement désactivée sans temps d’arrêt ni réinstallation du logiciel.
+**Contrôlez qui voit les nouvelles fonctionnalités.** Target est destiné à des utilisateurs, des organisations, des régions ou des attributs personnalisés spécifiques. Commencez par un petit groupe, validez l’expérience, puis développez - le tout à partir de la console, sans modification de code.
 
-* **Cibler des fonctionnalités sur des audiences spécifiques** — Activez de nouvelles fonctionnalités pour des groupes sélectionnés (par exemple, des programmes bêta, certaines régions ou des plans spécifiques) afin que les modifications puissent être validées et affinées avant qu&#39;elles ne soient mises à la disposition du plus grand nombre.
+**Exécuter des expériences A/B.** Proposez différentes variantes à différents segments de votre audience et mesurez celui qui fonctionne le mieux. Utilisez les résultats pour prendre des décisions éclairées sur les produits avant une mise à jour complète.
 
-* **Exécuter des expériences et des tests A/B** — Essayez différentes versions d’une fonctionnalité (telles que d’autres dispositions, flux ou recommandations) et mesurez celle qui fonctionne le mieux, en utilisant les données pour guider les décisions de produit.
+**Réduction des risques de publication.** Divisez les modifications importantes en déploiements contrôlés plus petits. Si un bogue ou un problème de performances apparaît, désactivez uniquement la fonctionnalité concernée ; le reste de votre application reste stable.
 
-* **Réduction des risques liés aux versions critiques** : scindez les modifications importantes en déploiements contrôlés plus petits afin de faciliter la détection, la compréhension et la résolution des problèmes avant qu’ils n’affectent tout le monde.
+**Coordination entre les équipes.** Les groupes de fonctionnalités multi-équipes permettent à plusieurs équipes de participer à une mise à jour coordonnée unique, chacune gérant ses propres indicateurs de fonctionnalité tout en partageant un planning de déploiement et une audience communs.
 
-* **Réagir rapidement aux problèmes** — Si un bug ou un problème de performances apparaît, désactivez uniquement la fonctionnalité affectée tout en maintenant la stabilité du reste de l&#39;application.
+## Intégrer votre première fonctionnalité
 
-En pratique, les déploiements d’expérience aident les utilisateurs finaux à bénéficier d’améliorations plus fréquentes, avec moins de perturbations : les nouvelles fonctionnalités peuvent ainsi être déployées plus tôt, testées plus soigneusement et ajustées rapidement en fonction des commentaires du monde réel.
+Pour tirer parti des déploiements d’expérience, commencez par trois étapes :
+
+1. **Configurez votre équipe et votre application** — [Demandez l’accès](guides/console/request-access.md) à la console, puis [intégrez votre application](guides/applications/onboard-your-application.md) afin que les déploiements d’expérience sachent quels clients servir.
+
+2. **Créer et publier un indicateur de fonctionnalité** — Suivez le guide [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md) pour définir un indicateur, définir votre audience initiale et la publier dans votre environnement.
+
+3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [ étapes d’intégration ](guides/integrate/integration-steps.md) pour votre type d’application.
+
+Une fois votre premier indicateur actif, vous pouvez affiner son audience, configurer un déploiement progressif et la promouvoir via les [ états de publication ](guides/feature-flags/release-states.md) du statut enregistré au déploiement complet.
+
+## Besoin d’aide ?
+
+Si quelque chose ne se comporte pas comme prévu, le [ guide de dépannage ](guides/support/troubleshooting.md) couvre les problèmes les plus courants. Pour toute autre raison, [contactez l’assistance ](guides/support/contact-support.md).
