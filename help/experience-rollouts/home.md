@@ -31,10 +31,10 @@ Pour tirer parti des déploiements d’expérience, commencez par trois étapes 
 
 2. **Créer et publier un indicateur de fonctionnalité** — Suivez le guide [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md) pour définir un indicateur, définir votre audience initiale et la publier dans votre environnement.
 
-3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [ étapes d’intégration ](guides/integrate/integration-steps.md) pour votre type d’application.
+3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [&#x200B; étapes d’intégration &#x200B;](guides/integrate/integration-steps.md) pour votre type d’application.
 
-Une fois votre premier indicateur actif, vous pouvez affiner son audience, configurer un déploiement progressif et la promouvoir via les [ états de publication ](guides/feature-flags/release-states.md) du statut enregistré au déploiement complet.
+Une fois votre premier indicateur actif, vous pouvez affiner son audience, configurer un déploiement progressif et la promouvoir via les [&#x200B; états de publication &#x200B;](guides/feature-flags/release-states.md) du statut enregistré au déploiement complet.
 
 ## Besoin d’aide ?
 
-Si quelque chose ne se comporte pas comme prévu, le [ guide de dépannage ](guides/support/troubleshooting.md) couvre les problèmes les plus courants. Pour toute autre raison, [contactez l’assistance ](guides/support/contact-support.md).
+Si quelque chose ne se comporte pas comme prévu, le [&#x200B; guide de dépannage &#x200B;](guides/support/troubleshooting.md) couvre les problèmes les plus courants. Pour toute autre raison, [contactez l’assistance &#x200B;](guides/support/contact-support.md).
