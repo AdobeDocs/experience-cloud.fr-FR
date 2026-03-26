@@ -1,13 +1,13 @@
 ---
 title: API Release Management
 description: Référence d’API pour les API de gestion des versions des déploiements d’expérience, y compris les points d’entrée pour obtenir, créer et modifier des versions et des groupes de fonctionnalités interéquipes.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+exl-id: e8d1d025-0645-4cf2-921f-d94c9f71282d
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '490'
 ht-degree: 15%
 
 ---
-
 
 # API Release Management {#release-management-apis}
 
@@ -146,4 +146,3 @@ Met à jour une version existante ou un groupe de fonctionnalités interéquipes
 * [Présentation des API de gestion des fonctionnalités](feature-management-apis-overview.md)
 * [API Feature flags management](feature-flags-management-api.md)
 * [API Feature group Management](feature-group-management-api.md)
-* [Créer un groupe de fonctionnalités multi-équipes](../guides/feature-flags/create-cross-team-feature-group.md)

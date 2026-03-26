@@ -1,17 +1,17 @@
 ---
 title: Intégration de votre application
 description: Découvrez comment intégrer une nouvelle application aux déploiements d’Adobe Experience afin que votre équipe puisse commencer à créer et gérer des indicateurs de fonctionnalité.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
 
-
 # Intégration de votre application {#onboard-your-application}
 
-Vous devez disposer du rôle **Admin** pour ajouter une nouvelle application. Voir [Rôles utilisateur](../teams/user-roles.md) si vous devez vérifier votre rôle ou le demander à l’administrateur de votre équipe.
+Vous devez disposer du rôle **Admin** pour ajouter une nouvelle application. Contactez l’administrateur ou administratrice de votre équipe si vous devez vérifier ou mettre à jour votre rôle.
 
 ## Ajouter une nouvelle application {#add-application}
 
@@ -45,5 +45,4 @@ Une fois votre application intégrée, votre équipe peut commencer à créer de
 ## Voir également {#see-also}
 
 * [Gestion des applications](manage-applications.md)
-* [Rôles utilisateur](../teams/user-roles.md)
 * [Connexion à la console](../console/log-in-to-the-console.md)

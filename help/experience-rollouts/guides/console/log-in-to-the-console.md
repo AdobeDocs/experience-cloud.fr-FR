@@ -1,13 +1,13 @@
 ---
 title: Connectez-vous à la console Déploiements d’expérience
 description: Découvrez comment commencer à utiliser les déploiements d’Adobe Experience en recherchant votre équipe, en demandant l’accès et en vous connectant à la console.
-source-git-commit: a7ff5bf33bd8e8c5ff89848955bf6af33b0d6c21
+exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Connectez-vous à la console Déploiements d’expérience {#log-in}
 
@@ -17,7 +17,7 @@ La prise en main des déploiements d’expérience comprend trois étapes : rech
 
 Les déploiements d’expérience sont organisés autour de **équipes**. Chaque équipe possède une ou plusieurs applications et gère les indicateurs de fonctionnalité pour ces applications. Avant de pouvoir vous connecter, vous devez appartenir à une équipe.
 
-Vérifiez auprès de votre responsable produit ou ingénieur principal si une équipe existe déjà pour votre projet. Si c’est le cas, demandez à l’administrateur de l’équipe de vous ajouter avec le [rôle utilisateur](../teams/user-roles.md) approprié. Si aucune équipe n’existe encore, suivez les étapes de la section [Créer une équipe](create-a-new-team.md).
+Vérifiez auprès de votre responsable produit ou ingénieur principal si une équipe existe déjà pour votre projet. Si c’est le cas, demandez à l’administrateur de l’équipe de vous ajouter avec le rôle utilisateur approprié. Si aucune équipe n’existe encore, contactez l’administrateur des déploiements d’expérience de votre organisation.
 
 ## Demander l’accès {#request-access}
 
@@ -29,9 +29,9 @@ Une fois votre demande approuvée, vous recevrez les autorisations associées au
 
 Une fois l’accès accordé :
 
-1. Accédez à [&#128279;](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
+1. Accédez à [](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
 2. Sélectionnez **Déploiements d’expérience** dans le sélecteur d’applications.
-3. Sélectionnez l’environnement approprié : **Évaluation** pour les tests, **Production** pour les déploiements en direct. Voir [&#x200B; Présentation des environnements](environments-overview.md) pour plus d’informations.
+3. Sélectionnez la sandbox appropriée. Pour plus d’informations, consultez [Sélection de votre sandbox](environments-overview.md).
 
 ## Premières étapes après la connexion {#first-steps}
 
@@ -43,4 +43,4 @@ Après vous être connecté, vérifiez que votre application est répertoriée d
 |---|---|
 | **Équipe** | Groupe autogéré propriétaire des applications et gérant les indicateurs de fonctionnalités. Les équipes ont une structure plate avec différents rôles utilisateur et niveaux d’autorisation. |
 | **Application** | Application à contrôler à l’aide d’indicateurs de fonctionnalité. Chaque application est détenue par une équipe. |
-| **Indicateur de fonctionnalité / Groupe de fonctionnalités / Version** | Les artefacts créés dans les déploiements d’expérience pour les tests de fonctionnalités et la gestion des versions. |
+| **Indicateur de fonctionnalité/Groupe de fonctionnalités** | Les artefacts créés dans les déploiements d’expérience pour les tests de fonctionnalités et les déploiements contrôlés. |

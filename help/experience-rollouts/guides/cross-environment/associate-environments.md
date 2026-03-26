@@ -1,17 +1,17 @@
 ---
 title: Association d’environnements à une application
 description: Découvrez comment lier vos instances d’application entre les environnements dans les déploiements d’Adobe Experience afin de gérer les indicateurs de fonctionnalité de manière cohérente, du développement à la production.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # Association d’environnements à une application {#associate-environments}
 
-La liaison de vos instances d’application à travers les environnements permet une visibilité inter-environnements et des workflows d’importation. Pour configurer ce paramètre, vous devez disposer du rôle **Admin**. Voir [&#x200B; Rôles utilisateur &#x200B;](../teams/user-roles.md) si vous devez vérifier votre rôle.
+La liaison de vos instances d’application à travers les environnements permet une visibilité inter-environnements et des workflows d’importation. Pour configurer ce paramètre, vous devez disposer du rôle **Admin**. Contactez l’administrateur ou administratrice de votre équipe si vous devez vérifier ou mettre à jour votre rôle.
 
 Pour en savoir plus sur son utilité, consultez la section [Concept interenvironnemental](cross-environment-concept.md).
 

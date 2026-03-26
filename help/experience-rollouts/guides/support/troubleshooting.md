@@ -1,13 +1,13 @@
 ---
 title: Résolution des problèmes
 description: Utilisez le pupitre des déploiements d’expérience pour diagnostiquer les problèmes d’évaluation des indicateurs de fonctionnalité pour des utilisateurs et utilisatrices spécifiques, y compris la vérification des fonctionnalités activées, désactivées ou non appariées pour une identité d’utilisateur donnée.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: d64e9573-8e18-46a1-a75a-5ae5bfc7c82d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
-
 
 # Résolution des problèmes {#troubleshooting}
 
@@ -85,5 +85,3 @@ Le tableau suivant décrit les problèmes courants et la manière de les examine
 
 * [Obtenir de l’aide](get-support.md)
 * [Contacter l’assistance](contact-support.md)
-* [Mise à jour des règles d’audience de version](../feature-flags/update-release-audience-rules.md)
-* [États de la version](../feature-flags/release-states.md)

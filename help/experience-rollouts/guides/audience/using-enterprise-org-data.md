@@ -1,13 +1,13 @@
 ---
 title: Utilisation des données d’organisation d’entreprise dans les règles d’audience
 description: Découvrez comment utiliser les identifiants d’organisation d’entreprise en tant que critères d’audience dans les déploiements d’Adobe Experience pour cibler des organisations clientes spécifiques.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 74f97ec7-a809-41bf-a41d-bb57f033040f
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
-
 
 # Utilisation des données d’organisation d’entreprise dans les règles d’audience {#enterprise-org-data}
 
@@ -41,5 +41,4 @@ Les organisations DMA utilisent des ID d’organisation au format `XXXXXXXXXXXXX
 ## Voir également {#see-also}
 
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
-* [Mise à jour des règles d’audience de version](../feature-flags/update-release-audience-rules.md)
 * [Règles d’audience complexes](complex-rules.md)
