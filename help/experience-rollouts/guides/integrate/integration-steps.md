@@ -1,13 +1,13 @@
 ---
 title: Étapes d’intégration
-description: Suivez les étapes d’intégration de votre type d’application pour connecter les déploiements d’Adobe Experience à votre service web, application web ou mobile ou application de bureau.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Suivez les étapes d’intégration de votre type d’application pour connecter les déploiements d’Adobe Experience à votre service web, application web ou mobile ou application de bureau à l’aide des SDK disponibles.
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # Étapes d’intégration {#integration-steps}
 
@@ -27,23 +27,23 @@ Suivez le [guide d’intégration de SDK Node.js](../sdk-releases/nodejs/nodejs-
 
 **Autres langues**
 
-Si votre pile n’est pas répertoriée ci-dessus, intégrez directement à la **API de fonctionnalités V3** (voir la section API de fonctionnalités de ce guide). Contactez l’assistance des déploiements d’expérience si vous avez besoin de conseils.
+Contactez l’assistance des déploiements d’expérience pour obtenir des conseils sur votre pile spécifique.
 
 ## Applications web et mobiles {#web-mobile}
 
-Les applications web et mobiles appellent la **API de fonctionnalité V3** pour récupérer les indicateurs de fonctionnalité de l’utilisateur actuel et appliquer une logique conditionnelle dans l’application.
+Les applications web et mobiles s’intègrent respectivement via le web SDK et le mobile SDK.
 
-Voir **API de fonctionnalités GET V3** dans la section API de fonctionnalités de ce guide pour la référence complète de l’API.
+>[!NOTE]
+>
+>La documentation de Web SDK et de Mobile SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Applications de bureau {#desktop}
 
-Les applications de bureau appellent la **API de fonctionnalité V2** pour récupérer les indicateurs de fonctionnalité.
+Les applications de bureau s’intègrent via SDK. Contactez votre représentant Adobe pour obtenir des conseils d’intégration spécifiques à votre pile de bureau.
 
-Voir **API de fonctionnalités GET V2** dans la section API de fonctionnalités de ce guide pour la référence complète de l’API.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Les clients de bureau doivent respecter la valeur de durée de vie dans la réponse API et implémenter une gestion des erreurs adaptée en cas d’indisponibilité de l’API. Consultez [Applications de bureau](desktop-applications.md) pour connaître la configuration requise.
+>La documentation de Desktop SDK est en cours de préparation et sera bientôt disponible.
 
 ## Voir également {#see-also}
 

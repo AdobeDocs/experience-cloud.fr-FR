@@ -1,19 +1,21 @@
 ---
 title: Applications mobiles
-description: Découvrez comment intégrer des déploiements d’Adobe Experience dans une application mobile à l’aide de l’API Feature V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Découvrez comment intégrer des déploiements d’Adobe Experience dans une application mobile à l’aide de Mobile SDK.
+exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Applications mobiles {#mobile-applications}
 
-Les applications mobiles s’intègrent aux déploiements d’expérience en appelant la **API de fonctionnalité V3** pour récupérer les indicateurs de fonctionnalité et appliquer une logique conditionnelle dans le code de votre application.
+Les applications mobiles s’intègrent aux déploiements d’expérience via le SDK mobile.
 
-Voir **API de fonctionnalités GET V3** dans la section API de fonctionnalités de ce guide pour la référence complète de l’API, y compris les paramètres de requête, le format de réponse et les exemples d’appels.
+>[!NOTE]
+>
+>La documentation de Mobile SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Étapes d’intégration {#integration-steps}
 

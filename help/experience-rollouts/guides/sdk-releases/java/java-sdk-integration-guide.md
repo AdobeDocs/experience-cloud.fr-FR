@@ -1,13 +1,13 @@
 ---
 title: Guide d’intégration de Java SDK
 description: Découvrez comment intégrer Java SDK à des déploiements d’expérience dans votre service principal pour récupérer et évaluer les indicateurs de fonctionnalité.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7c12bd6c-1883-4f1c-985f-a2b0432e61ce
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 2%
 
 ---
-
 
 # Guide d’intégration de Java SDK {#java-sdk-integration-guide}
 
@@ -19,7 +19,7 @@ Avant d’intégrer Java SDK, vérifiez les points suivants :
 
 * JDK 11 ou version ultérieure (requis à partir de la version 3.0.0 de SDK ; les versions antérieures prennent en charge JDK 8+)
 * Un système de création basé sur Maven
-* Une **clé API** et un **jeton de service** identifiant client de votre projet Adobe Developer Console ; voir [S’abonner à l’application API](../../integrate/subscribe-to-api-application.md)
+* Une **clé API** et un **jeton de service** identifiant client de votre projet Adobe Developer Console — contactez le support des déploiements d’Experience pour que votre identifiant client soit placé sur la liste autorisée
 * Votre **ID de client de l’application** enregistré dans la console Déploiements d’expérience ; voir [Intégration de votre application](../../applications/onboard-your-application.md)
 
 ## Ajoutez la dépendance Maven . {#maven-dependency}
@@ -188,5 +188,4 @@ try {
 
 * [Notes de mise à jour de Java SDK](java-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [S’abonner à l’application API](../../integrate/subscribe-to-api-application.md)
 * [Étapes d’intégration](../../integrate/integration-steps.md)

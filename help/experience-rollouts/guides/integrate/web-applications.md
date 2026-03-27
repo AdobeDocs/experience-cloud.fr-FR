@@ -1,19 +1,21 @@
 ---
 title: Des applications web
-description: Découvrez comment intégrer des déploiements d’Adobe Experience dans une application web à l’aide de l’API Feature V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Découvrez comment intégrer des déploiements d’Adobe Experience dans une application web à l’aide du SDK web.
+exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Des applications web {#web-applications}
 
-Les applications web s’intègrent aux déploiements d’expérience en appelant la **API de fonctionnalité V3** pour récupérer les indicateurs de fonctionnalité et en plaçant une logique conditionnelle derrière eux dans le code de votre application.
+Les applications web s’intègrent aux déploiements d’expérience via le SDK web.
 
-Voir **API de fonctionnalités GET V3** dans la section API de fonctionnalités de ce guide pour la référence complète de l’API, y compris les paramètres de requête, le format de réponse et les exemples d’appels.
+>[!NOTE]
+>
+>La documentation de Web SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Étapes d’intégration {#integration-steps}
 

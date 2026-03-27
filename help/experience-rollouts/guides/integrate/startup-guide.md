@@ -1,13 +1,13 @@
 ---
 title: Guide de démarrage
 description: Pour intégrer votre application aux déploiements d’Adobe Experience, procédez comme suit, de la demande d’accès à la création de votre premier indicateur de fonctionnalité.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
-
 
 # Guide de démarrage {#startup-guide}
 
@@ -29,21 +29,17 @@ Avant l’intégration, préparez les éléments suivants :
 | **Clients côté serveur** | En cas d’intégration à un SDK côté serveur, vous avez besoin d’un identifiant client d’administration disposant des autorisations appropriées. |
 | **Clients de bureau** | Un code de produit et une version de produit peuvent être utilisés à la place d’un identifiant client. |
 
-## Étape 3 : s’abonner à l’API de déploiements d’expérience {#step-3-subscribe}
+## Étape 3 : obtenir vos informations d’identification {#step-3-credentials}
 
-Abonnez-vous à l’API de déploiements d’expérience via Adobe Developer Console afin que votre application puisse appeler les points d’entrée d’indicateur de fonctionnalité. Voir [S’abonner à l’application API dans Adobe Developer Console](subscribe-to-api-application.md).
+Si vous intégrez via un SDK côté serveur, vous avez besoin d’un identifiant client de jeton de service. Contactez l’assistance des déploiements d’expérience pour que votre identifiant client soit analysé avant de pouvoir effectuer des appels API à partir de SDK.
 
->[!NOTE]
->
->Si vous intégrez via un SDK côté serveur, vous avez besoin d’un identifiant client de jeton de service. Contactez l’assistance des déploiements d’expérience pour que votre identifiant client soit placé sur la liste autorisée.
-
-## Étape 4 : intégration à l’aide d’un SDK ou de l’API {#step-4-integrate}
+## Étape 4 : Intégration à l’aide d’un SDK {#step-4-integrate}
 
 Suivez les [étapes d’intégration](integration-steps.md) pour votre type d’application. Choisissez le chemin d’accès qui correspond à votre pile :
 
 * **Services web** → Java SDK ou Node.js SDK
-* **Applications web et mobiles** API de fonctionnalités → V3
-* **Applications de bureau** API de fonctionnalités → V2
+* **Applications web et mobiles** → Web SDK ou Mobile SDK (bientôt disponible)
+* **Applications de bureau** → SDK (bientôt disponible)
 
 ## Étape 5 : créer et tester votre premier indicateur de fonctionnalité {#step-5-feature-flag}
 

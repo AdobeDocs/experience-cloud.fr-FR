@@ -1,13 +1,13 @@
 ---
 title: Guide d’intégration de Node.js SDK
 description: Découvrez comment intégrer le SDK Node.js de déploiements d’expérience dans votre service principal pour récupérer et évaluer les indicateurs de fonctionnalité.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 063829fe-6933-45ff-add4-285ca7391778
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
-
 
 # Guide d’intégration de Node.js SDK {#nodejs-sdk-integration-guide}
 
@@ -15,14 +15,14 @@ Le SDK Node.js de déploiements d’expérience est une bibliothèque côté ser
 
 >[!NOTE]
 >
->Le SDK Node.js est conçu pour une utilisation côté serveur uniquement. Pour les applications web côté client, appelez directement le point d’entrée REST V3 de l’API Feature.
+>Le SDK Node.js est conçu pour une utilisation côté serveur uniquement. Pour les applications web côté client, utilisez le SDK web. La documentation de Web SDK est en cours de préparation et sera bientôt disponible.
 
 ## Conditions préalables {#prerequisites}
 
 Avant d’intégrer le SDK Node.js, vérifiez que vous disposez des éléments suivants :
 
 * Une application Node.js côté serveur
-* Une **clé API** et un **jeton de service** obtenus via Adobe Developer Console — voir [S’abonner à l’application API](../../integrate/subscribe-to-api-application.md)
+* Une **clé API** et un **jeton de service** obtenus via Adobe Developer Console — contactez le support des déploiements d’expérience pour que votre identifiant client soit analysé
 * Votre **ID de client de l’application** enregistré dans la console Déploiements d’expérience ; voir [Intégration de votre application](../../applications/onboard-your-application.md)
 
 ## Installation du SDK {#install}
@@ -160,5 +160,4 @@ floodgateClient.createInstance(
 
 * [Notes de mise à jour de Node.js SDK](nodejs-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [S’abonner à l’application API](../../integrate/subscribe-to-api-application.md)
 * [Étapes d’intégration](../../integrate/integration-steps.md)

@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Déploiements d’Adobe Experience
 user-guide-description: Découvrez comment utiliser les déploiements d’Adobe Experience pour gérer les indicateurs de fonctionnalité, les déploiements contrôlés et les versions ciblées dans vos applications.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 6%
       + [Services Web](guides/integrate/web-services.md)
       + [SDK](guides/integrate/sdks.md)
       + [Étapes d’intégration](guides/integrate/integration-steps.md)
-      + [Abonnement à l’application API dans Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
    + Indicateurs de fonctionnalités {#feature-flags}
       + [Fonctionnalités et groupes de fonctionnalités](guides/feature-flags/features-feature-groups-releases.md)
       + [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 6%
          + [Guide d’intégration de Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Notes de mise à jour de Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [évaluation des performances de SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-+ API Feature {#feature-api}
-   + [API de fonctionnalités GET V3](feature-api/get-feature-api-v3.md)
-   + [API de fonctionnalités GET V2](feature-api/get-feature-api-v2.md)
-+ API Management {#management-api}
-   + [Présentation des API de gestion des fonctionnalités](management-api/feature-management-apis-overview.md)
-   + [API Feature flags management](management-api/feature-flags-management-api.md)
-   + [API Feature group Management](management-api/feature-group-management-api.md)
-   + [API Release Management](management-api/release-management-apis.md)
-   + [Obtention de l’identifiant client pour une application](management-api/get-client-id.md)
-   + [Obtenir les critères d’audience souhaités](management-api/get-audience-criteria.md)
-   + [API de correctif de gestion](management-api/management-patch-api.md)
