@@ -1,24 +1,24 @@
 ---
 title: Demander une version
 description: Découvrez comment demander une nouvelle version coordonnée dans les déploiements d’Adobe Experience et quelles informations fournir.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 3%
 
 ---
-
 
 # Demander une version {#request-a-release}
 
 ## Conditions préalables {#prerequisites}
 
-* Vous disposez du rôle **Gestionnaire de versions** — voir [Rôles utilisateur](../teams/user-roles.md)
+* Vous disposez du rôle **Gestionnaire de versions** — voir <!-- broken link[User roles](../teams/user-roles.md) -->
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Avant de demander une version, passez en revue les [versions et groupes de fonctionnalités interéquipes](releases-and-cross-team-feature-groups.md). Un groupe de fonctionnalités multi-équipes peut répondre à vos besoins avec moins de frais généraux. Il est en libre-service et prend en charge un ciblage d’audience plus riche.
+>Avant de demander une version, passez en revue les <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Un groupe de fonctionnalités multi-équipes peut répondre à vos besoins avec moins de frais généraux. Il est en libre-service et prend en charge un ciblage d’audience plus riche.
 
 ## Soumettre une demande d’assistance {#submit}
 
