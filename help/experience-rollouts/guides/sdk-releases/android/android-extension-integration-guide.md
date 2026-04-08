@@ -17,7 +17,7 @@ Ce guide décrit comment intégrer l’extension Experience Rollout à Adobe Exp
 
 Avant de mettre en œuvre l’extension Déploiement d’expérience , vérifiez que vous disposez des éléments suivants :
 
-* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
+* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
 * Extension Experience Rollout installée et configurée dans votre propriété mobile
 * Un identifiant d’organisation Adobe Experience Cloud
 * SDK minimale : API 21 (Android 5.0 Lollipop)
@@ -39,7 +39,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 
 ### Installation l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
 1. Sélectionnez l’onglet **Balises** et choisissez votre propriété mobile.
 1. Accédez à **Extensions** > **Catalogue**.
 1. Recherchez **Extension du déploiement d’expérience** et sélectionnez **Installer**.
@@ -106,7 +106,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques. Voir [ Gestion des dépendances Gradle ](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
+>Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques. Voir [&#x200B; Gestion des dépendances Gradle &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
 
 ### Ajout d’autorisations {#add-permissions}
 
@@ -187,7 +187,7 @@ Enregistrez votre classe `Application` dans `AndroidManifest.xml` :
 
 | Méthode | Obligatoire | Description |
 |---|---|---|
-| `withIdentity(namespace, id)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
+| `withIdentity(namespace, id)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
 | `withAttributes(map)` | Non | `Map<String, List<String>>`. Clé est le nom de l’attribut de contexte utilisé par vos règles de déploiement (par exemple, `locale`, `platform`, `appVersion`, `deviceType`). Valeur est la liste des valeurs d’attribut candidates pour cette clé pour l’utilisateur/la session en cours (par exemple `["en_US"]` ou `["phone"]`). |
 
 **Kotlin**
@@ -240,7 +240,7 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un rappel. Voir [ Contexte d’évaluation ](#evaluation-context).
+`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un rappel. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context).
 
 **Signature**
 
@@ -268,7 +268,7 @@ Rollout.isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;Boolean> | Appelée avec `true` si la fonctionnalité est activée, `false` dans le cas contraire. Vous pouvez également transmettre des `AdobeCallbackWithError<Boolean>` pour gérer les `fail(...)`. |
 
 **Exemples**
@@ -346,7 +346,7 @@ Rollout.getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | Appelée avec la payload de la fonctionnalité évaluée ; peut être `null` lorsque la fonctionnalité est introuvable. Vous pouvez également transmettre des `AdobeCallbackWithError<FeatureEvaluationResult>` pour gérer les `fail(...)`. |
 
 **Réponse**

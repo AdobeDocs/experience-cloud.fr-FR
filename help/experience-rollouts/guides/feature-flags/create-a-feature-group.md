@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Avant de créer un groupe de fonctionnalités, effectuez les opérations suivantes :
 
-* Vous avez accès à la console Déploiements d’expérience ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
+* Vous avez accès à la console Déploiements d’expérience ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 * Vous avez créé les indicateurs de fonctionnalité que vous souhaitez ajouter au groupe. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
@@ -35,7 +35,7 @@ Configurez les paramètres généraux du groupe de fonctionnalités :
 
 1. Fournissez un titre, une clé, une description et, éventuellement, une balise .
 2. Définissez un **pourcentage de déploiement** pour le groupe de fonctionnalités.
-3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [ Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
+3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [&#x200B; Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
 
 ## Étape 3 : Audience {#audience}
 
