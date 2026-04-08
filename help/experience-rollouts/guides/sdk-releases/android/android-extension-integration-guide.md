@@ -52,7 +52,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | Identifiant du jeu de données | Identifiant du jeu de données Adobe Experience Platform pour les données d’événement Analytics |
 
 1. Sélectionnez **Enregistrer**.
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
