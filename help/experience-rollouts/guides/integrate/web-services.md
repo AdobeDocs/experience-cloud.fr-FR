@@ -2,10 +2,10 @@
 title: Services Web
 description: Découvrez comment intégrer des déploiements d’Adobe Experience dans un service web principal à l’aide du SDK Java ou Node.js.
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
@@ -15,14 +15,13 @@ Les services principaux s’intègrent aux déploiements d’expérience à l’
 
 ## SDK disponibles {#available-sdks}
 
-| Langue | Guide d’intégration | Notes de mise à jour |
-|---|---|---|
-| **Java** | [&#x200B; Guide d’intégration de Java SDK &#x200B;](../sdk-releases/java/java-sdk-integration-guide.md) | [Notes de mise à jour de Java SDK &#x200B;](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [Guide d’intégration de SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Notes de mise à jour de SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+>[!NOTE]
+>
+>La documentation du SDK côté serveur est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Other languages {#other-languages}
 
-Si votre service principal utilise une langue non répertoriée ci-dessus, contactez l’assistance des déploiements d’Experience pour obtenir des conseils sur l’intégration à votre pile spécifique.
+Contactez l’assistance des déploiements d’expérience pour obtenir des conseils sur l’intégration à votre pile spécifique.
 
 ## Voir également {#see-also}
 

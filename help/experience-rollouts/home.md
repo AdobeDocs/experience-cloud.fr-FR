@@ -2,9 +2,9 @@
 title: Déploiements d’Adobe Experience
 description: Découvrez comment utiliser les déploiements d’Adobe Experience pour diffuser des fonctionnalités en toute sécurité et progressivement avec des déploiements contrôlés, des indicateurs de fonctionnalité et une gestion d’audience ciblée.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Les déploiements d’Adobe Experience permettent aux équipes produit d’expé
 
 **Réduction des risques de publication.** Divisez les modifications importantes en déploiements contrôlés plus petits. Si un bogue ou un problème de performances apparaît, désactivez uniquement la fonctionnalité concernée ; le reste de votre application reste stable.
 
-**Coordination entre les équipes.** Les groupes de fonctionnalités multi-équipes permettent à plusieurs équipes de participer à une mise à jour coordonnée unique, chacune gérant ses propres indicateurs de fonctionnalité tout en partageant un planning de déploiement et une audience communs.
+**Coordination entre les applications.** Les groupes de fonctionnalités vous permettent de gérer plusieurs indicateurs de fonctionnalité ensemble, partageant une audience de déploiement commune entre les applications.
 
 ## Intégrer votre première fonctionnalité
 
@@ -31,10 +31,10 @@ Pour tirer parti des déploiements d’expérience, commencez par trois étapes 
 
 2. **Créer et publier un indicateur de fonctionnalité** — Suivez le guide [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md) pour définir un indicateur, définir votre audience initiale et la publier dans votre environnement.
 
-3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [&#x200B; étapes d’intégration &#x200B;](guides/integrate/integration-steps.md) pour votre type d’application.
+3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [ étapes d’intégration ](guides/integrate/integration-steps.md) pour votre type d’application.
 
 Une fois votre premier indicateur activé, vous pouvez affiner son audience, configurer un déploiement progressif et le promouvoir d’un déploiement enregistré à un déploiement complet.
 
 ## Besoin d’aide ?
 
-Si quelque chose ne se comporte pas comme prévu, le [&#x200B; guide de dépannage &#x200B;](guides/support/troubleshooting.md) couvre les problèmes les plus courants. Pour toute autre raison, [contactez l’assistance &#x200B;](guides/support/contact-support.md).
+Si quelque chose ne se comporte pas comme prévu, contactez votre représentant Adobe pour obtenir de l’aide.

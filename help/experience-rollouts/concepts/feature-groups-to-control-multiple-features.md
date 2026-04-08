@@ -1,13 +1,13 @@
 ---
 title: Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités
 description: Découvrez comment les groupes de fonctionnalités dans les déploiements d’expérience vous permettent de regrouper et de gérer les indicateurs de fonctionnalité associés dans les applications en une seule entité.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
-
 
 # Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités {#feature-groups}
 
@@ -21,14 +21,5 @@ Prenons l’exemple d’une fonctionnalité de collaboration qui implique des mo
 
 ## Regroupement de plusieurs applications {#cross-application}
 
-Les groupes de fonctionnalités prennent en charge la gestion de fonctionnalités entre applications à condition que les indicateurs appartiennent à la **même équipe** dans les déploiements d’expérience. Une équipe peut posséder plusieurs applications, de sorte que les indicateurs associés à ces applications peuvent être regroupés.
+Les groupes de fonctionnalités prennent en charge la gestion de fonctionnalités entre applications. Les indicateurs associés à plusieurs applications peuvent être regroupés.
 
-## Groupes de fonctionnalités et versions {#vs-releases}
-
-| | Groupe de fonctionnalités | Libération |
-|---|---|---|
-| Portée | Au sein d’une seule équipe | À travers plusieurs équipes |
-| Cas d’utilisation | Coordination des indicateurs au sein de votre équipe | Coordination de lancement à grande échelle et à plusieurs équipes |
-| Privilèges requis | Team-level | Supérieur (gestionnaire de version) |
-
-Si les indicateurs de fonctionnalité que vous souhaitez regrouper appartiennent à des applications appartenant à différentes équipes, utilisez une version [release](release-management.md) au lieu d’un groupe de fonctionnalités.

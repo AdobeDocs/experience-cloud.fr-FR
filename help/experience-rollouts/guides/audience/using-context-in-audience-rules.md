@@ -1,25 +1,23 @@
 ---
 title: Utilisation du contexte dans les règles d’audience
 description: Découvrez comment utiliser les variables contextuelles dans les règles d’audience pour les indicateurs de fonctionnalité et les groupes de fonctionnalités dans les déploiements d’Adobe Experience.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
-
 # Utilisation du contexte dans les règles d’audience {#context-in-audience-rules}
 
-Les variables contextuelles sont des valeurs fournies par l’application cliente au moment de l’exécution. Ils vous permettent de cibler les utilisateurs en fonction d’informations dynamiques au niveau de la session, telles que la langue active de l’utilisateur, le type d’appareil ou l’état de l’application, critères qui ne font pas partie du profil persistant de l’utilisateur.
+Les variables contextuelles sont des valeurs fournies par l’application cliente au moment de l’exécution. Ils vous permettent de cibler les utilisateurs en fonction d’informations dynamiques au niveau de la session, telles que la langue active de l’utilisateur, le type d’appareil ou l’état de l’application.
 
-Les variables contextuelles sont pertinentes pour les clients web, de bureau et mobiles.
+Les variables contextuelles sont pertinentes pour les clients web et mobiles.
 
 ## Fonctionnement des variables contextuelles {#how-context-works}
 
 Votre application transmet des variables contextuelles aux déploiements d’expérience lors de l’évaluation d’un indicateur de fonctionnalité. Vous définissez des règles dans la console pour vérifier ces valeurs, et la plateforme les utilise au moment de l’évaluation pour déterminer si l’utilisateur est admissible.
-
-Si vous définissez des conditions dans les sections **Profil** et **Contexte** des règles d’audience, toutes les conditions de profil sont combinées à toutes les conditions de contexte à l’aide de la logique ET.
 
 ## Types de variables contextuelles {#variable-types}
 
@@ -52,12 +50,7 @@ Pour ajouter une variable contextuelle à une règle d’audience :
 
 Si la variable de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer une en libre-service à partir de la section de gestion des variables de contexte de la console.
 
->[!NOTE]
->
->Lorsque des variables contextuelles sont incluses dans les critères d’audience, le **Calculateur d’audience** ne renvoie pas de nombre estimé, car les valeurs contextuelles sont déterminées au moment de l’exécution et ne peuvent pas être prédites à l’avance.
-
 ## Voir également {#see-also}
 
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
 * [Ajouter des règles de pourcentage dans les critères d’audience](adding-percentage-rules.md)
-* [Règle d’audience avec variable de contexte IP client](clientip-rule.md)

@@ -1,13 +1,13 @@
 ---
 title: Déploiement graduel
 description: Découvrez comment les déploiements progressifs dans les déploiements d’expérience vous permettent d’échelonner la diffusion des fonctionnalités en production en toute sécurité, avec des commentaires en temps réel et un risque minimal.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: ede24236-de19-4008-893c-e67bd82e23e3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
-
 
 # Déploiement graduel {#gradual-rollout}
 
@@ -18,10 +18,10 @@ Le déploiement progressif met progressivement en production une nouvelle foncti
 **Filet de sécurité**
 En commençant par diffuser à une petite audience, vous pouvez suivre les commentaires et surveiller le comportement en production avant le développement. Si des problèmes apparaissent, l’impact est limité et la fonctionnalité peut être désactivée immédiatement, sans changement de code ni redéploiement.
 
-**Gestion de la charge principale**
+**Gestion du chargement principal**
 L’ouverture d’une fonctionnalité à tous les utilisateurs et utilisatrices simultanément peut provoquer des pics soudains de charge du serveur. Un déploiement progressif répartit l’augmentation du trafic au fil du temps, ce qui permet à l’infrastructure de se dimensionner en douceur.
 
-**Commentaires en temps réel**
+**Réaction en temps réel**
 Chaque phase du déploiement fait apparaître les commentaires des utilisateurs réels. Les équipes peuvent agir sur ces commentaires (affiner l’expérience, corriger les cas de périphérie ou ajuster le message) avant la phase suivante.
 
 ## Fonctionnement {#how-it-works}
@@ -38,4 +38,3 @@ Les déploiements d’expérience fournissent des règles de ciblage granulaires
 ## Voir également {#see-also}
 
 * [Indicateurs de fonctionnalité pour activer et désactiver des fonctionnalités](feature-flags-to-enable-disable-features.md)
-* [Gestion des versions](release-management.md)

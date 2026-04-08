@@ -1,13 +1,13 @@
 ---
 title: Indicateurs de fonctionnalité pour activer et désactiver des fonctionnalités
 description: Découvrez comment les indicateurs de fonctionnalité dans les déploiements d’expérience vous permettent de contrôler la disponibilité des fonctionnalités, de gérer les dépendances et de réduire les risques de déploiement.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # Indicateurs de fonctionnalité pour activer et désactiver des fonctionnalités {#feature-flags}
 
@@ -44,4 +44,3 @@ L’indicateur de fonctionnalité dans les déploiements d’expérience suit ce
 1. Un développeur crée un indicateur de fonctionnalité et le teste de manière isolée, sans le présenter à d’autres utilisateurs.
 2. Un propriétaire de produit associe une audience à l’indicateur , ce qui rend la fonctionnalité visible par un ensemble défini d’utilisateurs externes.
 3. L’indicateur est éventuellement ajouté à un [groupe de fonctionnalités](feature-groups-to-control-multiple-features.md) à gérer avec les indicateurs associés.
-4. L’indicateur est éventuellement ajouté à une version [release](release-management.md) pour la coordination entre les équipes.

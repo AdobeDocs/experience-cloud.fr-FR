@@ -1,13 +1,13 @@
 ---
 title: Qu’est-ce qu’un indicateur de fonctionnalité ?
 description: Découvrez les indicateurs de fonctionnalité et comment ils vous permettent d’activer ou de désactiver des fonctionnalités d’application au moment de l’exécution sans redéploiement.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Qu’est-ce qu’un indicateur de fonctionnalité ? {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ Cette séparation réduit considérablement le risque. L’équipe de développe
 
 >[!NOTE]
 >
->Dans les déploiements d&#39;expérience, un indicateur de fonction est l&#39;unité la plus atomique de contrôle de fonction. Il peut être utilisé seul pour cibler une seule fonctionnalité ou combiné avec d’autres indicateurs dans une [version de groupe de fonctionnalités](feature-groups-to-control-multiple-features.md) ou [version](release-management.md).
+>Dans les déploiements d&#39;expérience, un indicateur de fonction est l&#39;unité la plus atomique de contrôle de fonction. Il peut être utilisé seul pour cibler une fonctionnalité unique ou combiné avec d&#39;autres indicateurs dans un [groupe de fonctionnalités](feature-groups-to-control-multiple-features.md).

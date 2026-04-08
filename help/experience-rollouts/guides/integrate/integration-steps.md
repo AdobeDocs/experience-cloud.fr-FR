@@ -2,9 +2,9 @@
 title: Étapes d’intégration
 description: Suivez les étapes d’intégration de votre type d’application pour connecter les déploiements d’Adobe Experience à votre service web, application web ou mobile ou application de bureau à l’aide des SDK disponibles.
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,19 +15,11 @@ Choisissez le chemin d’intégration correspondant à votre type d’applicatio
 
 ## Services Web {#web-services}
 
-Les services principaux s’intègrent à l’aide d’un SDK côté serveur. Choisissez le SDK pour votre pile technologique.
+Les services principaux s’intègrent à l’aide d’un SDK côté serveur. Contactez l’assistance des déploiements d’expérience pour obtenir des conseils sur votre pile spécifique.
 
-**Java**
-
-Suivez le guide d’intégration [Java SDK](../sdk-releases/java/java-sdk-integration-guide.md) pour la configuration, la configuration des dépendances et l’initialisation.
-
-**Node.js**
-
-Suivez le [guide d’intégration de SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) pour la configuration et l’initialisation.
-
-**Autres langues**
-
-Contactez l’assistance des déploiements d’expérience pour obtenir des conseils sur votre pile spécifique.
+>[!NOTE]
+>
+>La documentation du SDK côté serveur est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Applications web et mobiles {#web-mobile}
 
