@@ -3,10 +3,10 @@ user-guide-title: Gestion des services de délivrabilité d’Adobe
 user-guide-description: Service de délivrabilité d’Adobe
 breadcrumb-title: Service de délivrabilité d’Adobe
 hide: true
-source-git-commit: cfdca7ed165ac603341373eaeea7397dc76d8630
-workflow-type: ht
+source-git-commit: 3ea2712ddbc1d35c911cb118de5e4dcbaaeab5d8
+workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -14,4 +14,4 @@ ht-degree: 100%
 
 * [Accueil](home.md)
 * [Liste de suppression globale](global-suppression-list.md)
-* [Article de test masqué](hidden-test.md)
+* {hide-from-toc}[Article de test masqué](hidden-test.md)
