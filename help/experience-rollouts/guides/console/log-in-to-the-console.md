@@ -30,7 +30,7 @@ Une fois votre demande approuvée, vous recevrez les autorisations associées au
 
 Une fois l’accès accordé :
 
-1. Accédez à [](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
+1. Accédez à [&#128279;](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
 2. Sélectionnez **Déploiements d’expérience** dans le sélecteur d’applications.
 3. Sélectionnez la sandbox appropriée. Pour plus d’informations, consultez [Sélection de votre sandbox](environments-overview.md).
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Avant de créer un indicateur de fonctionnalité, effectuez les opérations suivantes :
 
-* Vous avez accès à la console Déploiements d’expérience ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
+* Vous avez accès à la console Déploiements d’expérience ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 
