@@ -1,13 +1,14 @@
 ---
 title: Modes de déploiement d’expérience
 description: Découvrez les deux modes de ciblage des fonctionnalités dans les déploiements d’Adobe Experience , le ciblage au niveau de l’utilisateur et le ciblage au niveau de l’organisation, ainsi que le moment d’utiliser chacun d’eux.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # Modes de déploiement d’expérience {#modes}
 
@@ -81,3 +82,5 @@ Le ciblage au niveau de l’organisation et de l’environnement n’est pas con
 
 * Si votre question est *« Quels utilisateurs doivent voir cette fonctionnalité ? »* → Utiliser le **ciblage au niveau de l’utilisateur**
 * Si votre question est *« Quelles organisations ou quels environnements doivent disposer de cette fonctionnalité ? »* → Utiliser le ciblage **au niveau de l’organisation et de l’environnement**
+
+<!-- -->

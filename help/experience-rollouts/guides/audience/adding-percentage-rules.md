@@ -1,8 +1,9 @@
 ---
 title: Ajouter des règles de pourcentage dans les critères d’audience
 description: Découvrez comment ajouter des règles basées sur des pourcentages au sein des critères d’audience dans les déploiements d’Adobe Experience afin de cibler différents pourcentages de déploiement pour différents segments d’audience.
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ Ajoutez quatre règles : Pays = États-Unis, Pourcentage = 10 %, Pays = Royaume-
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
 * [Règles d’audience complexes](complex-rules.md)
 * [Définir une fonctionnalité à déployer progressivement](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: Applications de bureau
 description: Découvrez comment intégrer des déploiements d’Adobe Experience dans une application de bureau à l’aide de SDK.
+hide: true
 exl-id: e26c8af8-893a-43f4-905c-7292cc887900
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 5%
@@ -25,3 +26,5 @@ Les clients de bureau peuvent utiliser un **code de produit et version du produi
 
 * [Étapes d’intégration](integration-steps.md)
 * [Guide de démarrage](startup-guide.md)
+
+<!-- -->

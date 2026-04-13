@@ -1,13 +1,14 @@
 ---
 title: Workflow de publication complet
 description: Découvrez le workflow de bout en bout pour gérer une version coordonnée dans les déploiements d’Adobe Experience, de la définition des indicateurs de fonctionnalité à la mise en ligne.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # Workflow de publication complet {#release-workflow}
 
@@ -46,3 +47,5 @@ Une fois la version mise en ligne, le gestionnaire de versions peut ajuster les 
 * [Demander une version](request-a-release.md)
 * [Mise à jour des règles d’audience de version](update-release-audience-rules.md)
 * [États de la version](release-states.md)
+
+<!-- -->

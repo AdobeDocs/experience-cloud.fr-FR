@@ -1,8 +1,9 @@
 ---
 title: Créer votre premier indicateur de fonctionnalité
 description: Découvrez comment créer un indicateur de fonctionnalité dans les déploiements d’Adobe Experience Platform, définir une audience et la tester avant de la déployer auprès des utilisateurs.
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Avant de créer un indicateur de fonctionnalité, effectuez les opérations suivantes :
 
-* Vous avez accès à la console Déploiements d’expérience ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
+* Vous avez accès à la console Déploiements d’expérience ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 
@@ -60,3 +61,5 @@ Le rôle **Développeur** est en sandbox. Les développeurs peuvent tester les f
 
 * [Définir une fonctionnalité à déployer progressivement](set-feature-gradual-rollout.md)
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
+
+<!-- -->

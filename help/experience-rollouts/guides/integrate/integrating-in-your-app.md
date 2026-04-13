@@ -1,8 +1,9 @@
 ---
 title: Intégration de déploiements d’expérience dans votre application
 description: Découvrez comment intégrer les déploiements d’Adobe Experience dans votre application, qu’il s’agisse d’un service web, d’une propriété web, d’une application mobile ou d’une application de bureau.
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ Sélectionnez le guide correspondant à votre type d’application :
 | **Application web** | Web SDK (bientôt disponible) |
 | **Application mobile** | Mobile SDK (bientôt disponible) |
 | **Application de bureau** | SDK (bientôt disponible) |
+
+<!-- -->

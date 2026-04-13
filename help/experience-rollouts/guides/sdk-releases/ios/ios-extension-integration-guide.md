@@ -1,7 +1,8 @@
 ---
 title: Guide d’intégration de l’extension Experience Rollout pour iOS
 description: Découvrez comment intégrer l’extension Experience Rollout à Adobe Experience Platform Mobile SDK sur iOS.
-source-git-commit: a9f6746c2b470377d2fd58de18e984d1ec404a77
+hide: true
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 8%
@@ -16,7 +17,7 @@ Ce guide décrit comment intégrer l’extension Experience Rollout à Adobe Exp
 
 Avant de mettre en œuvre l’extension Déploiement d’expérience , vérifiez que vous disposez des éléments suivants :
 
-* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
+* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
 * Extension Experience Rollout installée et configurée dans votre propriété mobile
 * Un identifiant d’organisation Adobe Experience Cloud
 * Cible de déploiement minimale : iOS 12.0
@@ -39,7 +40,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 
 ### Installation l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
 1. Sélectionnez l’onglet **Balises** et choisissez votre propriété mobile.
 1. Accédez à **Extensions** > **Catalogue**.
 1. Recherchez **Extension du déploiement d’expérience** et sélectionnez **Installer**.
@@ -52,7 +53,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | Identifiant du jeu de données | Identifiant du jeu de données Adobe Experience Platform pour les données d’événement Analytics |
 
 1. Sélectionnez **Enregistrer**.
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
@@ -104,7 +105,7 @@ pod install
 
 >[!IMPORTANT]
 >
->Pour les applications de production, Adobe recommande d’épingler des numéros de version explicites au lieu d’utiliser des plages `~>` ou ouvertes. Pour plus d’informations[&#128279;](https://guides.cocoapods.org/using/the-podfile.html) consultez le guide de contrôle de version CocoaPods .
+>Pour les applications de production, Adobe recommande d’épingler des numéros de version explicites au lieu d’utiliser des plages `~>` ou ouvertes. Pour plus d’informations](https://guides.cocoapods.org/using/the-podfile.html) consultez le guide de contrôle de version [CocoaPods .
 
 ### Initialiser le SDK {#initialize-sdk}
 
@@ -185,7 +186,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 | Méthode | Obligatoire | Description |
 |---|---|---|
-| `withIdentity(namespace:id:)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
+| `withIdentity(namespace:id:)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
 | `withAttributes(_:)` | Non | `[String: [String]]`. Clé est le nom de l’attribut de contexte utilisé par vos règles de déploiement (par exemple, `locale`, `platform`, `appVersion`, `deviceType`). Valeur est la liste des valeurs d’attribut candidates pour cette clé pour l’utilisateur/la session en cours (par exemple `["en_US"]` ou `["phone"]`). |
 
 **Swift**
@@ -235,7 +236,7 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un gestionnaire d’achèvement. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context).
+`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un gestionnaire d’achèvement. Voir [ Contexte d’évaluation ](#evaluation-context).
 
 **Signature**
 
@@ -262,7 +263,7 @@ Rollout.isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `completion` | `(Bool) -> Void` | Appelé avec `true` si la fonctionnalité est activée, `false` dans le cas contraire. |
 
 **Exemples**
@@ -329,7 +330,7 @@ Rollout.getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `completion` | `(FeatureEvaluationResult?) -> Void` | Appelé avec la payload de la fonctionnalité évaluée ; peut être `nil` lorsque la fonctionnalité est introuvable. |
 
 **Réponse**
@@ -445,3 +446,5 @@ NSString *version = [AEPMobileRollout extensionVersion];
 * [Étapes d’intégration](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
 * [Guide d’intégration de l’extension Android](../android/android-extension-integration-guide.md)
+
+<!-- -->

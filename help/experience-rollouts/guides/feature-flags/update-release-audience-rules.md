@@ -1,13 +1,14 @@
 ---
 title: Mise à jour des règles d’audience de version
 description: Découvrez comment configurer et mettre à jour les critères d’audience pour une version dans les déploiements d’Adobe Experience, y compris les types de règles pris en charge et comment les combiner.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
 
 ---
-
 
 # Mise à jour des règles d’audience de version {#update-release-audience-rules}
 
@@ -76,3 +77,5 @@ Utilisez les icônes **+/-** pour ajouter ou supprimer des conditions. Pour dupl
 * [Demander une version](request-a-release.md)
 * [Workflow de publication complet](release-workflow-end-to-end.md)
 * [États de la version](release-states.md)
+
+<!-- -->

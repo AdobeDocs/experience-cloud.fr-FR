@@ -1,8 +1,9 @@
 ---
 title: Créer un groupe de fonctionnalités
 description: Découvrez comment créer un groupe de fonctionnalités dans les déploiements d’Adobe Experience afin de gérer plusieurs indicateurs de fonctionnalités dans les applications de votre équipe en une seule entité.
+hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Avant de créer un groupe de fonctionnalités, effectuez les opérations suivantes :
 
-* Vous avez accès à la console Déploiements d’expérience ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
+* Vous avez accès à la console Déploiements d’expérience ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 * Vous avez créé les indicateurs de fonctionnalité que vous souhaitez ajouter au groupe. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
@@ -35,7 +36,7 @@ Configurez les paramètres généraux du groupe de fonctionnalités :
 
 1. Fournissez un titre, une clé, une description et, éventuellement, une balise .
 2. Définissez un **pourcentage de déploiement** pour le groupe de fonctionnalités.
-3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [&#x200B; Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
+3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [ Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
 
 ## Étape 3 : Audience {#audience}
 
@@ -69,3 +70,5 @@ Vous pouvez planifier l&#39;activation du groupe de fonctions à une date et une
 * [Définir un groupe de fonctionnalités à déployer progressivement](set-feature-group-gradual-rollout.md)
 * [Test A/B avec indicateurs de fonctionnalité](a-b-testing.md)
 * [Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

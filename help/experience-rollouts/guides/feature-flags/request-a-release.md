@@ -1,8 +1,9 @@
 ---
 title: Demander une version
 description: Découvrez comment demander une nouvelle version coordonnée dans les déploiements d’Adobe Experience et quelles informations fournir.
+hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 3%
@@ -46,3 +47,5 @@ Une fois que vous avez reçu la confirmation que la version a été créée, con
 * [Workflow de publication complet](release-workflow-end-to-end.md)
 * [Mise à jour des règles d’audience de version](update-release-audience-rules.md)
 * [États de la version](release-states.md)
+
+<!-- -->

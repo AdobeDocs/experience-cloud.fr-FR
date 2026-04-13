@@ -1,13 +1,14 @@
 ---
 title: Analytics
 description: Découvrez comment activer et utiliser le tableau de bord d’analyse intégré dans les déploiements d’Adobe Experience pour suivre les performances des indicateurs de fonctionnalité et mesurer l’impact du déploiement.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
 
 ---
-
 
 # Analytics {#analytics}
 
@@ -42,3 +43,5 @@ Pour les groupes de fonctionnalités et les versions, sélectionnez le menu dér
 * [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
 * [Test A/B avec indicateurs de fonctionnalité](a-b-testing.md)
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
+
+<!-- -->

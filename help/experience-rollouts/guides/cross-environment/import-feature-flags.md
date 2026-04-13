@@ -1,8 +1,9 @@
 ---
 title: Importer les indicateurs de fonctionnalité
 description: Découvrez comment importer des indicateurs de fonctionnalité d’un sandbox dans un autre dans les déploiements d’Adobe Experience pour éviter de recréer manuellement des configurations d’indicateur.
+hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -43,3 +44,5 @@ Tenez compte des points suivants lors de l’importation d’indicateurs de fonc
 
 * [Fonctionnalités et groupes de fonctionnalités](../feature-flags/features-feature-groups-releases.md)
 * [Créer votre premier indicateur de fonctionnalité](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

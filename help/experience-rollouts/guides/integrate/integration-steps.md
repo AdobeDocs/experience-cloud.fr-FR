@@ -1,8 +1,9 @@
 ---
 title: Étapes d’intégration
 description: Suivez les étapes d’intégration de votre type d’application pour connecter les déploiements d’Adobe Experience à votre service web, application web ou mobile ou application de bureau à l’aide des SDK disponibles.
+hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -43,3 +44,5 @@ Les applications de bureau s’intègrent via SDK. Contactez votre représentant
 * [SDK](sdks.md)
 * [Services Web](web-services.md)
 * [Applications de bureau](desktop-applications.md)
+
+<!-- -->

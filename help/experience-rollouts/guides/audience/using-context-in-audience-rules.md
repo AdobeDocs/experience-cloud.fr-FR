@@ -1,8 +1,9 @@
 ---
 title: Utilisation du contexte dans les règles d’audience
 description: Découvrez comment utiliser les variables contextuelles dans les règles d’audience pour les indicateurs de fonctionnalité et les groupes de fonctionnalités dans les déploiements d’Adobe Experience.
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -54,3 +55,5 @@ Si la variable de contexte dont vous avez besoin n’apparaît pas dans la liste
 
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
 * [Ajouter des règles de pourcentage dans les critères d’audience](adding-percentage-rules.md)
+
+<!-- -->

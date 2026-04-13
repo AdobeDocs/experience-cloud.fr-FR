@@ -1,8 +1,9 @@
 ---
 title: Règles d’audience complexes
 description: Découvrez comment utiliser des ensembles de règles d’audience volumineux ou complexes dans les déploiements d’Adobe Experience Cloud, y compris les limites de valeurs en bloc et comment fractionner les règles sur plusieurs conditions.
+hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -30,9 +31,11 @@ La logique imbriquée vous permet de combiner plusieurs conditions d’audience 
    * `(1 and 2) or 3`
    * `(1 and 2) or (3 and 4)`
 
-Il s’agit du même mécanisme que celui utilisé pour les règles de pourcentage en combinaison avec d’autres critères. Consultez [&#x200B; Ajouter des règles de pourcentage dans les critères d’audience &#x200B;](adding-percentage-rules.md) pour obtenir des exemples de travail.
+Il s’agit du même mécanisme que celui utilisé pour les règles de pourcentage en combinaison avec d’autres critères. Consultez [ Ajouter des règles de pourcentage dans les critères d’audience ](adding-percentage-rules.md) pour obtenir des exemples de travail.
 
 ## Voir également {#see-also}
 
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
 * [Ajouter des règles de pourcentage dans les critères d’audience](adding-percentage-rules.md)
+
+<!-- -->

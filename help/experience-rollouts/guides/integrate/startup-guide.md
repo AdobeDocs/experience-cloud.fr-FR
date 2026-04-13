@@ -1,8 +1,9 @@
 ---
 title: Guide de démarrage
 description: Pour intégrer votre application aux déploiements d’Adobe Experience, procédez comme suit, de la demande d’accès à la création de votre premier indicateur de fonctionnalité.
+hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
@@ -52,3 +53,5 @@ Une fois l’intégration terminée, créez votre premier indicateur de fonction
 * [Intégration de déploiements d’expérience dans votre application](integrating-in-your-app.md)
 * [Étapes d’intégration](integration-steps.md)
 * [SDK](sdks.md)
+
+<!-- -->

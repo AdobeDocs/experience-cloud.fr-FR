@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Déploiements d’Adobe Experience
 user-guide-description: Découvrez comment utiliser les déploiements d’Adobe Experience pour gérer les indicateurs de fonctionnalité, les déploiements contrôlés et les versions ciblées dans vos applications.
 hide: true
-source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 8%
