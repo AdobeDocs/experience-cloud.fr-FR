@@ -1,8 +1,9 @@
 ---
 title: Déploiement graduel
 description: Découvrez comment les déploiements progressifs dans les déploiements d’expérience vous permettent d’échelonner la diffusion des fonctionnalités en production en toute sécurité, avec des commentaires en temps réel et un risque minimal.
+hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -38,3 +39,5 @@ Les déploiements d’expérience fournissent des règles de ciblage granulaires
 ## Voir également {#see-also}
 
 * [Indicateurs de fonctionnalité pour activer et désactiver des fonctionnalités](feature-flags-to-enable-disable-features.md)
+
+<!-- -->

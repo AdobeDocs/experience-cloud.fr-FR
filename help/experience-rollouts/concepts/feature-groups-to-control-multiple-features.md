@@ -1,8 +1,9 @@
 ---
 title: Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités
 description: Découvrez comment les groupes de fonctionnalités dans les déploiements d’expérience vous permettent de regrouper et de gérer les indicateurs de fonctionnalité associés dans les applications en une seule entité.
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ Prenons l’exemple d’une fonctionnalité de collaboration qui implique des mo
 
 Les groupes de fonctionnalités prennent en charge la gestion de fonctionnalités entre applications. Les indicateurs associés à plusieurs applications peuvent être regroupés.
 
+
+<!-- -->

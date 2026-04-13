@@ -1,13 +1,14 @@
 ---
 title: Définir une fonctionnalité à déployer progressivement
 description: Découvrez comment configurer un déploiement progressif en fonction d’un pourcentage pour un indicateur de fonctionnalité dans les déploiements d’Adobe Experience.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # Définir une fonctionnalité à déployer progressivement {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ Vous pouvez augmenter ou réduire le pourcentage au fil du temps pour développe
 * [Déploiement graduel](../../concepts/gradual-rollout.md)
 * [Définir un groupe de fonctionnalités à déployer progressivement](set-feature-group-gradual-rollout.md)
 * [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
+
+<!-- -->

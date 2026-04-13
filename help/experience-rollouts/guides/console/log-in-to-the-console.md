@@ -1,8 +1,9 @@
 ---
 title: Connectez-vous à la console Déploiements d’expérience
 description: Découvrez comment commencer à utiliser les déploiements d’Adobe Experience en recherchant votre équipe, en demandant l’accès et en vous connectant à la console.
+hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -44,3 +45,5 @@ Après vous être connecté, vérifiez que votre application est répertoriée d
 | **Équipe** | Groupe autogéré propriétaire des applications et gérant les indicateurs de fonctionnalités. Les équipes ont une structure plate avec différents rôles utilisateur et niveaux d’autorisation. |
 | **Application** | Application à contrôler à l’aide d’indicateurs de fonctionnalité. Chaque application est détenue par une équipe. |
 | **Indicateur de fonctionnalité/Groupe de fonctionnalités** | Les artefacts créés dans les déploiements d’expérience pour les tests de fonctionnalités et les déploiements contrôlés. |
+
+<!-- -->

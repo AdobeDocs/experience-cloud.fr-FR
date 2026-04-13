@@ -1,8 +1,9 @@
 ---
 title: Gestion des applications
 description: Découvrez comment gérer les applications dans les déploiements d’Adobe Experience Cloud, y compris en ajoutant de nouvelles applications.
+hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,3 +26,5 @@ Pour ajouter une application, consultez [Intégration de votre application](onbo
 
 * [Intégration de votre application](onboard-your-application.md)
 * [Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

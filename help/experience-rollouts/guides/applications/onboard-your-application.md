@@ -1,8 +1,9 @@
 ---
 title: Intégration de votre application
 description: Découvrez comment intégrer une nouvelle application aux déploiements d’Adobe Experience afin de commencer à créer et gérer les indicateurs de fonctionnalité.
+hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 3%
@@ -45,3 +46,5 @@ Une fois votre application intégrée, vous pouvez commencer à créer des indic
 
 * [Gestion des applications](manage-applications.md)
 * [Connexion à la console](../console/log-in-to-the-console.md)
+
+<!-- -->

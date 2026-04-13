@@ -1,8 +1,9 @@
 ---
 title: Test A/B avec indicateurs de fonctionnalité
 description: Découvrez comment exécuter des tests A/B à l’aide de groupes de fonctionnalités dans les déploiements d’Adobe Experience en configurant plusieurs variantes pour un ensemble d’indicateurs de fonctionnalité.
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ Enregistrez les paramètres du groupe de fonctionnalités. Lorsque vous êtes pr
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
 * [Définir un groupe de fonctionnalités à déployer progressivement](set-feature-group-gradual-rollout.md)
 * [Analytics](analytics.md)
+
+<!-- -->

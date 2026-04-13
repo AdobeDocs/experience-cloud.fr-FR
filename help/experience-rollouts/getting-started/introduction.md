@@ -1,13 +1,14 @@
 ---
 title: Présentation des déploiements d’expérience
 description: Découvrez comment Adobe Experience Rollouts fournit un système de version contrôlée pour déployer progressivement des fonctionnalités vers les audiences ciblées.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des déploiements d’expérience {#introduction}
 
@@ -40,3 +41,5 @@ Les déploiements d’expérience constituent une plateforme de gestion des fonc
 * **Déploiements graduels** - Déployez progressivement les fonctionnalités pour réduire les risques, recueillir des commentaires et gérer la charge du serveur principal.
 
 * **Interrupteur de blocage** — Désactivez immédiatement toute fonction si un problème est détecté, sans changement de code ni redéploiement.
+
+<!-- -->
