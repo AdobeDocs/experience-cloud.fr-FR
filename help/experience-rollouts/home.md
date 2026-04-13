@@ -1,8 +1,9 @@
 ---
 title: Déploiements d’Adobe Experience
 description: Découvrez comment utiliser les déploiements d’Adobe Experience pour diffuser des fonctionnalités en toute sécurité et progressivement avec des déploiements contrôlés, des indicateurs de fonctionnalité et une gestion d’audience ciblée.
+hide: true
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -31,10 +32,14 @@ Pour tirer parti des déploiements d’expérience, commencez par trois étapes 
 
 2. **Créer et publier un indicateur de fonctionnalité** — Suivez le guide [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md) pour définir un indicateur, définir votre audience initiale et la publier dans votre environnement.
 
-3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [&#x200B; étapes d’intégration &#x200B;](guides/integrate/integration-steps.md) pour votre type d’application.
+3. **Intégrer à votre application** — Connectez votre application à l’API de déploiements d’expérience ou à SDK afin qu’elle puisse récupérer et appliquer des indicateurs de fonctionnalité au moment de l’exécution. Commencez par les [ étapes d’intégration ](guides/integrate/integration-steps.md) pour votre type d’application.
 
 Une fois votre premier indicateur activé, vous pouvez affiner son audience, configurer un déploiement progressif et le promouvoir d’un déploiement enregistré à un déploiement complet.
 
 ## Besoin d’aide ?
 
 Si quelque chose ne se comporte pas comme prévu, contactez votre représentant Adobe pour obtenir de l’aide.
+
+<!-- 
+Bob was here
+-->
