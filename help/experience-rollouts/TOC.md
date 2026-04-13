@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Déploiements d’Adobe Experience
 user-guide-description: Découvrez comment utiliser les déploiements d’Adobe Experience pour gérer les indicateurs de fonctionnalité, les déploiements contrôlés et les versions ciblées dans vos applications.
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 14b4d944830f8e3b3102152ae2ae36d3556f0804
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '186'
 ht-degree: 8%
 
 ---
@@ -57,3 +57,5 @@ ht-degree: 8%
    + Versions de SDK {#sdk-releases}
       + Extension Android {#android-extension}
          + [Guide d’intégration de l’extension Android](guides/sdk-releases/android/android-extension-integration-guide.md)
+      + Extension iOS {#ios-extension}
+         + [Guide d’intégration de l’extension iOS](guides/sdk-releases/ios/ios-extension-integration-guide.md)
