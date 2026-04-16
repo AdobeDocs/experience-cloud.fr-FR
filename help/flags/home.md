@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les indicateurs dans Adobe Target pour 
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: b3e13a42c19eb7b8b7d5d402bf9a56f89f573044
+source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Pour obtenir de la valeur à partir des indicateurs , commencez par trois étape
 
 1. **Créer et publier un indicateur** — Suivez le guide [Créer votre premier indicateur de fonctionnalité](guides/feature-flags/create-your-first-feature-flag.md) pour définir un indicateur, définir votre audience initiale et la publier dans votre environnement.
 
-1. **Intégrer à votre application** — Connectez votre application à l’aide d’AEP Web SDK ou d’AEP Mobile SDK afin qu’elle puisse récupérer et appliquer des indicateurs au moment de l’exécution. Commencez par les [&#x200B; étapes d’intégration &#x200B;](guides/integrate/integration-steps.md) pour votre type d’application.
+1. **Intégrer à votre application** — Connectez votre application à l’aide d’AEP Web SDK ou d’AEP Mobile SDK afin qu’elle puisse récupérer et appliquer des indicateurs au moment de l’exécution. Commencez par les [ étapes d’intégration ](guides/integrate/integration-steps.md) pour votre type d’application.
 
 Une fois votre premier indicateur activé, vous pouvez affiner son audience, configurer un déploiement progressif et le promouvoir d’un déploiement enregistré à un déploiement complet.
 
@@ -48,5 +48,5 @@ Une fois votre premier indicateur activé, vous pouvez affiner son audience, con
 Si quelque chose ne se comporte pas comme prévu, contactez votre représentant Adobe pour obtenir de l’aide.
 
 <!-- 
-Bob was here
+Bob was here. Again.
 -->
