@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les indicateurs dans Adobe Target pour 
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: b3e13a42c19eb7b8b7d5d402bf9a56f89f573044
+source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -48,5 +48,5 @@ Une fois votre premier indicateur activé, vous pouvez affiner son audience, con
 Si quelque chose ne se comporte pas comme prévu, contactez votre représentant Adobe pour obtenir de l’aide.
 
 <!-- 
-Bob was here
+Bob was here. Again.
 -->
