@@ -36,7 +36,7 @@ Configurez les paramètres généraux du groupe de fonctionnalités :
 
 1. Fournissez un titre, une clé, une description et, éventuellement, une balise .
 2. Définissez un **pourcentage de déploiement** pour le groupe de fonctionnalités.
-3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [ Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
+3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [&#x200B; Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
 
 ## Étape 3 : Audience {#audience}
 

@@ -16,7 +16,7 @@ Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de f
 
 ## Conditions préalables {#prerequisites}
 
-* Vous avez accès à la console ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
+* Vous avez accès à la console ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
 * Vous appartenez à une équipe et votre application est intégrée
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 * Vous avez créé les indicateurs de fonctionnalité à tester. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
