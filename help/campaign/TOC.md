@@ -3,11 +3,12 @@ user-guide-title: Adobe Campaign v8
 user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role: User
-source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 74%
+source-wordcount: 162
+ht-degree: 81%
 
 ---
 
@@ -15,13 +16,13 @@ ht-degree: 74%
 
 + [Accueil](campaign-standard-migration-home.md)
 + Rapports dynamiques {#reporting}
-   + [Prise en main des rapports dynamiques](reporting/get-started-reporting.md)
-   + À propos du reporting {#about-reporting}
+   + [Commencer avec les rapports dynamiques](reporting/get-started-reporting.md)
+   + À propos des rapports {#about-reporting}
       + [Rapports dynamiques](reporting/about-dynamic-reports.md)
       + [Interface de reporting](reporting/reporting-interface.md)
       + [Liste des composants](reporting/list-of-components.md)
       + [Calcul des indicateurs](reporting/indicator-calculation.md)
-      + [Dépannage](reporting/troubleshooting.md)
+      + [Résolution des problèmes](reporting/troubleshooting.md)
    + Liste des rapports {#list-of-reports}
       + [Définir la période d&#39;un rapport](reporting/defining-the-report-period.md)
       + [Synthèse des rebonds](reporting/bounce-summary.md)
@@ -40,14 +41,14 @@ ht-degree: 74%
       + [Ajouter des composants](reporting/adding-components.md)
       + [Création d&#39;une dimension de profil personnalisé](reporting/creating-a-custom-profile-dimension.md)
       + [Accord sur l&#39;utilisation des rapports dynamiques](reporting/pii-agreement.md)
-+ Marques {#branding}
-   + [À propos de la marque](branding/branding-gs.md)
++ Branding {#branding}
+   + [À propos du branding](branding/branding-gs.md)
    + [Configurer une marque](branding/branding-configure.md)
-   + [Attribution d’une marque](branding/branding-assign.md)
+   + [Attribuer une marque](branding/branding-assign.md)
 + API REST {#apis}
    + [Prise en main des API REST](api/get-started-apis.md)
-   + [Recommendations et limitations](api/limitations.md)
-   + [Pourquoi utiliser les API REST ?](api/why-using-campaign-standard-apis.md)
+   + [Recommandations et limitations](api/limitations.md)
+   + [Pourquoi utiliser les API REST](api/why-using-campaign-standard-apis.md)
    + [Configuration de l’accès aux API](api/setting-up-api-access.md)
    + Concepts globaux {#global-concepts}
       + [À lire absolument](api/must-read.md)
@@ -61,7 +62,7 @@ ht-degree: 74%
          + [Pagination](api/pagination.md)
       + [Ressources personnalisées](api/custom-resources.md)
    + [Interaction avec des ressources personnalisées](api/interacting-with-custom-resources.md)
-   + Gestion de profils {#managing-profiles}
+   + Gérer des profils {#managing-profiles}
       + [Récupérer des profils](api/retrieving-profiles.md)
       + [Mettre à jour des profils](api/updating-profiles.md)
       + [Créer un profil](api/creating-profiles-api.md)
