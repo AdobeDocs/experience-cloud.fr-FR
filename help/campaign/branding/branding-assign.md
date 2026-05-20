@@ -107,7 +107,7 @@ Pour créer une diffusion autonome, procédez comme suit.
 
 1. Une fois la configuration effectuée, sélectionnez **OK**.
 
-1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Concevoir et envoyer des e-mails](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Concevoir et envoyer des e-mails](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/email/create-email).
 
 >[!TAB Adobe Campaign Web]
 
@@ -133,6 +133,6 @@ Pour créer une diffusion autonome, procédez comme suit.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Créer votre premier e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personnalisez davantage vos diffusions. Pour plus d’informations sur la création d’un e-mail, consultez la section [Créer votre premier e-mail](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]
