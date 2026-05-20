@@ -8,10 +8,18 @@ role: Developer
 level: Experienced
 badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
+TQID: https://experienceleague.adobe.com/jaVg32T-Frb7jHAZNMNa-iZt2QNF7oIOPbZ4DLzPFJY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 91%
+source-wordcount: 452
+ht-degree: 98%
 
 ---
 
@@ -133,8 +141,8 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
   }
   ```
 
-* Exemple de requête GET pour récupérer les ressources « profile » contenant « Doe » dans
-les champs e-mail ou nom (le filtre byText effectue une recherche dans les champs e-mail et nom ).
+* Exemple de requête GET pour récupérer les ressources « profile » contenant « Doe »
+dans les champs e-mail ou nom (le filtre byText effectue une recherche dans les champs e-mail et nom).
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \

@@ -2,20 +2,28 @@
 title: Créer et gérer les Triggers Experience Cloud
 description: Découvrir l’interface utilisateur des Triggers Adobe Experience Cloud
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
+TQID: https://experienceleague.adobe.com/0EG1662w4P--X1uN3hH7JRBFrU0B5JU--LxP0T49tYY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 516
 ht-degree: 100%
 
 ---
 
-# Créer un trigger Experience Cloud {#create-triggers}
+# Création d’un trigger Experience Cloud {#create-triggers}
 
 >[!AVAILABILITY]
 >
 >La nouvelle interface utilisateur d’Adobe Experience Cloud Triggers est progressivement disponible pour toute la clientèle. Pour en savoir plus, contactez votre représentant ou représentante Adobe.
 
-Créez un trigger et configurez les conditions correspondantes. Vous pouvez par exemple indiquer les critères des règles d’un trigger pendant une visite, comme des mesures telles que Abandon du panier ou des dimensions telles que le nom du produit. Lorsque les règles sont satisfaites, le trigger s’exécute.
+Créez un déclencheur et configurez les conditions correspondantes. Vous pouvez par exemple indiquer les critères des règles d’un déclencheur pendant une visite, comme des mesures telles que Abandon du panier ou des dimensions telles que le nom du produit. Lorsque les règles sont satisfaites, le déclencheur s’exécute.
 
 >[!NOTE]
 >
@@ -31,7 +39,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 
    * **[!UICONTROL Abandon]**: vous pouvez créer un déclencheur qui s’exécute lorsqu’un visiteur ou une visiteuse consulte un produit mais ne l’ajoute pas au panier.
 
-   * **[!UICONTROL Action]**: vous pouvez créer des déclencheurs, par exemple, pour qu’ils s’exécutent après une inscription à une newsletter, un abonnement par e-mail ou une demande de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un trigger pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des triggers pour les visiteurs qui regardent un programme en particulier et qui doivent répondre à une enquête.
+   * **[!UICONTROL Action]**: vous pouvez créer des déclencheurs, par exemple, pour qu’ils s’exécutent après une inscription à une newsletter, un abonnement par e-mail ou une demande de cartes de crédit (confirmations). Si vous êtes un détaillant, vous pouvez créer un déclencheur pour un visiteur qui s’inscrit à un programme de fidélité. Dans le secteur des médias et du divertissement, créez des déclencheurs pour les personnes qui regardent un programme en particulier et qui doivent répondre à une enquête.
 
    * **[!UICONTROL Début et fin de session]**: créez un déclencheur pour les événements de début et de fin de session.
 
@@ -47,7 +55,7 @@ Créez un trigger et configurez les conditions correspondantes. Vous pouvez par 
 
 1. Dans les catégories **[!UICONTROL La visite doit inclure]** et **[!UICONTROL La visite ne doit pas inclure]**, vous pouvez définir les critères ou les comportements de visiteur ou visiteuse que vous souhaitez voir se produire ou non. Vous pouvez indiquer une logique **Et** ou **Ou** au sein des conditions ou entre des conditions, en fonction des critères que vous avez déterminés.
 
-   Par exemple, les règles pour un trigger d’abandon de panier simple peuvent ressembler à celles-ci :
+   Par exemple, les règles pour un déclencheur d’abandon de panier simple peuvent ressembler à celles-ci :
 
    * **[!UICONTROL La visite doit inclure]** : `Carts (metric) Is greater or equal to 1` pour cibler les visiteurs et visiteuses qui ont au moins un article dans leur panier.
    * **[!UICONTROL La visite ne doit pas inclure]** : `Checkout (metric) Exists.` pour supprimer les visiteurs et visiteuses qui ont acheté les articles placés dans leur panier.
