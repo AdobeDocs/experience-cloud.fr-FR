@@ -3,20 +3,25 @@ title: Résoudre des problèmes liés aux rapports dynamiques
 description: Vous trouverez ici des questions courantes relatives aux rapports dynamiques.
 audience: end-user
 level: Intermediate
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/F93fgaxBe78h7najrzjiDIAJZeCwM3lbCLA-X79-R9I
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 97%
+source-wordcount: 1241
+ht-degree: 99%
 
 ---
 
-# Dépannage{#troubleshooting}
+# Résolution des problèmes{#troubleshooting}
 
 Cette section contient des questions courantes relatives aux rapports dynamiques.
 
-## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne.  {#unique-open-clicks-no-match}
+## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
 Il s&#39;agit d&#39;un comportement attendu.
 Prenons l&#39;exemple suivant pour expliquer ce comportement.
@@ -26,13 +31,13 @@ Un e-mail est envoyé aux profils P1 et P2.
 P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
 P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
-Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;e-mail envoyé :
+Voici une représentation visuelle de l’interaction des profils avec l’e-mail envoyé :
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Jour</strong> <br/> </th> 
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th> 
   </tr> 
  </thead> 
@@ -60,7 +65,7 @@ Cela donne le tableau suivant :
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br/> </th> 
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th> 
   </tr> 
  </thead> 
@@ -87,7 +92,7 @@ Cela donne le tableau suivant :
 >
 >Les décomptes uniques reposent sur un sketch HLL, ce qui peut entraîner de légères imprécisions dans le cas de nombres élevés.
 
-## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données.  {#open-counts-no-match-database}
+## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données. {#open-counts-no-match-database}
 
 Cela peut être dû au fait que la méthode heuristique est utilisée dans les rapports dynamiques pour tracker les ouvertures, même lorsque nous ne pouvons pas tracker l&#39;action **[!UICONTROL Ouvrir]**.
 
@@ -101,10 +106,10 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?  {#counts-recurring-deliveries}
+## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
 
 Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
-Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
+Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
 Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
 Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
 
@@ -115,8 +120,8 @@ Les rapports doivent se présenter comme suit :
   <tr> 
    <th align="center"> <strong>Diffusion</strong> <br/> </th> 
    <th align="center"> <strong>Envoyés</strong> <br/> </th> 
-   <th align="center"> <strong>Delivrés</strong> <br/> </th>
-   <th align="center"> <strong>Ouvertures</strong><br/> </th> 
+   <th align="center"> <strong>Délivrés</strong> <br/> </th>
+   <th align="center"> <strong>Ouvertures</strong> <br/> </th> 
    <th align="center"> <strong>Ouvertures uniques</strong> <br/> </th>
   </tr> 
  </thead> 
@@ -152,7 +157,7 @@ Les rapports doivent se présenter comme suit :
  </tbody> 
 </table>
 
-## Quelle est la signification des couleurs dans le tableau des rapports ?  {#reports-color-signification}
+## Quelle est la signification des couleurs dans le tableau des rapports ? {#reports-color-signification}
 
 Les couleurs affichées dans vos rapports sont aléatoires et ne peuvent pas être personnalisées. Elles représentent une barre de progression et s&#39;affichent pour mettre en évidence la valeur maximale atteinte dans vos rapports.
 
@@ -186,7 +191,7 @@ Pour résoudre ce problème, procédez comme suit :
 
 * Après avoir importé votre mapping de ciblage à partir d’un fichier XML, vous devrez également importer l’enrichissement du reporting.
 
-* Au lieu d&#39;importer votre mapping de ciblage, vous pouvez le créer directement dans l&#39;interface utilisateur web d&#39;Adobe Campaign qui va automatiquement créer l&#39;enrichissement de reporting.
+* Au lieu d’importer votre mapping de ciblage, vous pouvez le créer directement dans l’interface d’utilisation d’Adobe Campaign Web, ce qui créera automatiquement l’enrichissement des rapports.
 
 ## Divergence entre le nombre d’en-têtes de colonnes et la somme des lignes
 
@@ -196,9 +201,9 @@ Une divergence entre le nombre d’en-têtes de colonnes et la somme de toutes l
 
   Par exemple :
 
-   * Si un profil A ouvre un e-mail sur trois jours différents, la ventilation par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
+   * Si un profil A ouvre un e-mail sur trois jours différents, la répartition par jour affichera A sur trois lignes, bien que dans l’en-tête, A compte pour 1.
 
-   * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la ventilation par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les ventilations par appareil et navigateur.
+   * Si le profil A clique sur trois liens différents dans un e-mail le même jour, la répartition par URL de suivi affiche A sur trois lignes, bien que dans l’en-tête, A compte pour 1. Il en va de même pour les répartitions par appareil et navigateur.
 
 * **Mesures d’ouverture** : le nombre d’ouvertures est déterminé par l’agrégation du total des événements d’ouverture réels et des événements de clic unique (par identifiant de personne destinataire), à l’exception des cas où aucun événement d’ouverture n’a eu lieu, puisqu’il n’est pas possible de cliquer sur un lien d’e-mail sans événement d’ouverture.
 

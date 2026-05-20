@@ -1,16 +1,18 @@
 ---
-title: Software Distribution
+title: Distribution logicielle
 description: Découvrez comment utiliser Software Distribution pour télécharger votre logiciel Adobe Experience Cloud.
 exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
-source-git-commit: 6a2ba27cfeae875ab9184760b6d233ef759dd460
-workflow-type: ht
-source-wordcount: '430'
+TQID: https://experienceleague.adobe.com/KaFci2oowPXO8w8SZORK-sn-LYZd1TM2Y3JFcISsQZM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+workflow-type: tm+mt
+source-wordcount: 434
 ht-degree: 100%
 
 ---
 
-
-# Software Distribution
+# Distribution logicielle
 
 Découvrez comment utiliser Software Distribution pour télécharger votre logiciel Adobe Experience Cloud.
 

@@ -3,11 +3,16 @@ title: Calcul des indicateurs
 description: Comprenez les résultats de vos rapports grâce à la liste des formules de chaque mesure.
 level: Intermediate
 audience: end-user
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/ubKkJPoxyetbbFy8Sp0vyD4Q2ZDhNok7PAsGrDCombI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 384
 ht-degree: 97%
 
 ---
@@ -20,14 +25,14 @@ ht-degree: 97%
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email  {#email-delivery}
+## Diffusion Email {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
    <th> <strong>Libellé</strong> <br/> </th> 
    <th> <strong>Nom du champ</strong> <br/> </th> 
-   <th> <strong>Formule de calcul de l'indicateur</strong> <br/> </th> 
+   <th> <strong>Formule de calcul de l’indicateur</strong> <br/> </th> 
    <th> <strong>Commentaires</strong><br/> </th> 
   </tr> 
  </thead> 
@@ -63,9 +68,9 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clics<br/> </td> 
+   <td> Clic<br/> </td> 
    <td> @clicks<br/> </td> 
-   <td> count(@trackingUrlType=1 ou 10 ou 11)<br/> </td> 
+   <td> count(@trackingUrlType=1 or 10 or 11)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -75,7 +80,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Diffusés<br/> </td> 
+   <td> Délivrés<br/> </td> 
    <td> @delivered<br/> </td> 
    <td> count(@status=1)<br/> </td> 
    <td> </td> 
@@ -93,7 +98,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de rebond définitif<br/> </td> 
+   <td> Taux de rebonds définitifs<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br/> </td> 
@@ -135,7 +140,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'ouverture<br/> </td> 
+   <td> Taux d’ouverture<br/> </td> 
    <td> @rateOpens<br/> </td> 
    <td> @opens/@delivered<br/> </td> 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
@@ -166,7 +171,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br/> </td> 
-   <td> @envoyé<br/> </td> 
+   <td> @sent<br/> </td> 
    <td> @delivered + @bounces<br/> </td> 
    <td> </td> 
   </tr> 
@@ -196,7 +201,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Inatteignable <br/> </td> 
-   <td> @Inatteignable<br/> </td> 
+   <td> @unreachable<br/> </td> 
    <td> count(@failureReason=3)<br/> </td> 
    <td> </td> 
   </tr> 
@@ -213,7 +218,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Utilisateur inconnu<br/> </td> 
+   <td> Utilisateur inconnu ou utilisatrice inconnue<br/> </td> 
    <td> @unknownUser<br/> </td> 
    <td> count(@failureReason=1)<br/> </td> 
    <td> </td> 

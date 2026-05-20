@@ -3,22 +3,27 @@ title: Liste des composants
 description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
 level: Beginner
 audience: end-user
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/AmKod4IH5ALU1TliTcePIZy-5Z3qyshXvi6n9UgqC2Y
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 54%
+source-wordcount: 772
+ht-degree: 98%
 
 ---
 
 # Liste des composants {#list-of-components}
 
-Notez que si deux composants ne sont pas compatibles, la cellule affiche la valeur **None**.
+Notez que si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
 ## Dimensions {#dimensions}
 
-Le tableau ci-dessous contient la liste des dimensions utilisées dans les rapports et leur définition.
+Le tableau ci-dessous contient la liste des dimensions utilisées dans les différents rapports et leur définition.
 
 <table> 
  <thead> 
@@ -33,7 +38,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les rappo
    <td> Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br/> </td> 
+   <td> Campagne<br/> </td> 
    <td> Libellé et identifiant de votre campagne.<br/> </td> 
   </tr> 
   <tr> 
@@ -58,7 +63,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les rappo
   </tr> 
   <tr> 
    <td> Profil<br/> </td> 
-   <td> Regroupe les champs de profil personnalisés et d'usine créés lors de l'extension de la ressource de profil.<br/> </td> 
+   <td> Regroupe les champs de profil personnalisés et prêts à l’emploi créés lors de l’extension de la ressource de profil.<br/> </td> 
   </tr> 
   <tr> 
    <td> Domaine du destinataire<br/> </td> 
@@ -69,12 +74,12 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les rappo
    <td> Libellé et identifiant de la diffusion récurrente.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Domaine de l’expéditeur<br/> </td> 
+   <td> Domaine de l'expéditeur<br/> </td> 
    <td> Domaine utilisé pour envoyer l'email.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Adresse IP de l’expéditeur<br/> </td> 
-   <td> IP utilisée pour envoyer l'email.<br/> </td> 
+   <td> IP de l'expéditeur<br/> </td> 
+   <td> Adresse IP utilisée pour envoyer l'email.<br/> </td> 
   </tr> 
   <tr> 
    <td> URL de tracking<br/> </td> 
@@ -103,7 +108,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les rappo
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition en fonction du type de diffusion.
 
-### Mesures des emails {#email-and-sms-metrics}
+### Mesures relatives aux e-mails {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -130,7 +135,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage d'emails qui ont fait l'objet d'un bounce par rapport au nombre d'emails envoyés.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clics<br/> </td> 
+   <td> Clic<br/> </td> 
    <td> Nombre de clics sur un contenu dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
@@ -138,7 +143,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de clics dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Diffusés<br/> </td> 
+   <td> Délivrés<br/> </td> 
    <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br/> </td> 
   </tr> 
   <tr> 
@@ -151,7 +156,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Taux de rebond définitif<br/> </td> 
-   <td> Pourcentage de diffusions ayant échoué en raison d'erreurs permanentes.<br/> </td> 
+   <td> Pourcentage de diffusions en erreur en raison d'erreurs permanentes.<br/> </td> 
   </tr> 
   <tr> 
    <td> Page miroir<br/> </td> 
@@ -159,22 +164,22 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Taux de page miroir<br/> </td> 
-   <td> Pourcentage de clics sur le lien de la page miroir par rapport au nombre total de messages de diffusion.<br/> </td> 
+   <td> Pourcentage de clics sur le lien de la page miroir par rapport au nombre total de messages de la diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clics sur l’offre<br/> </td> 
+   <td> Clics sur une offre<br/> </td> 
    <td> Nombre de clics sur une offre dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics sur les offres<br/> </td> 
+   <td> Taux de clics de l'offre<br/> </td> 
    <td> Pourcentage de clics sur une offre.<br/> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures<br/> </td> 
-   <td> Nombre d'ouvertures d'un message dans une diffusion.<br/> </td> 
+   <td> Nombre d’ouvertures d’un message dans une diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'ouverture<br/> </td> 
+   <td> Taux d’ouverture<br/> </td> 
    <td> Pourcentage de messages ouverts.<br/> </td> 
   </tr> 
   <tr> 
@@ -203,7 +208,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Taux de rebonds temporaires<br/> </td> 
-   <td> Pourcentage de diffusions ayant échoué pour une raison temporaire.<br/> </td> 
+   <td> Pourcentage de diffusions en erreur pour une raison temporaire.<br/> </td> 
   </tr> 
   <tr> 
    <td> Clics uniques<br/> </td> 
@@ -214,7 +219,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant ouvert la diffusion.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Désabonnement unique<br/> </td> 
+   <td> Désabonnements uniques<br/> </td> 
    <td> Nombre de destinataires ayant cliqué sur le lien de désabonnement.<br/> </td> 
   </tr> 
   <tr> 
@@ -350,7 +355,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 ## Segments {#segments}
 
-Le tableau ci-dessous contient la liste des segments utilisés dans les rapports et leur définition.
+Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
 <table> 
  <thead> 
@@ -361,68 +366,68 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les rapports
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age : baby boomers 1<br/> </td> 
+   <td> Age : baby boomers 1<br/> </td> 
    <td> Destinataires nés entre 1946 et 1954.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : baby boomers 2<br/> </td> 
+   <td> Age : baby boomers 2<br/> </td> 
    <td> Destinataires nés entre 1955 et 1965.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 18 à 25<br/> </td> 
+   <td> Age : de 18 à 25 ans<br/> </td> 
    <td> Destinataires âgés de 18 à 25 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 26 à 30<br/> </td> 
+   <td> Age : de 26 à 30 ans<br/> </td> 
    <td> Destinataires âgés de 26 à 30 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 31 à 40<br/> </td> 
+   <td> Age : de 31 à 40 ans<br/> </td> 
    <td> Destinataires âgés de 31 à 40 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : de 41 à 50<br/> </td> 
+   <td> Age : de 41 à 50 ans<br/> </td> 
    <td> Destinataires âgés de 41 à 50 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération X<br/> </td> 
+   <td> Age : génération X<br/> </td> 
    <td> Destinataires nés entre 1966 et 1976.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération Y (enfants du millénaire)<br/> </td> 
+   <td> Age : génération Y (enfants du millénaire)<br/> </td> 
    <td> Destinataires nés entre 1977 et 1994.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération Z<br/> </td> 
+   <td> Age : génération Z<br/> </td> 
    <td> Destinataires nés entre 1995 et aujourd'hui.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : plus de 50<br/> </td> 
-   <td> Destinataires dont l'âge est supérieur à 50.<br/> </td> 
+   <td> Age : plus de 50 ans<br/> </td> 
+   <td> Destinataires dont l'âge est supérieur à 50 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 25<br/> </td> 
+   <td> Age : moins de 25 ans<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 25 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 30<br/> </td> 
+   <td> Age : moins de 30 ans<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 30 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 40<br/> </td> 
+   <td> Age : moins de 40 ans<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 40 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : moins de 50<br/> </td> 
+   <td> Age : moins de 50 ans<br/> </td> 
    <td> Destinataires dont l'âge est inférieur à 50 ans.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Age : génération silencieuse<br/> </td> 
+   <td> Age : génération silencieuse<br/> </td> 
    <td> Destinataires nés en 1945 ou avant.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Toutes les visites <br/> </td> 
-   <td> Chaque destinataire<br/> </td> 
+   <td> Toutes les visites<br/> </td> 
+   <td> Tous les destinataires<br/> </td> 
   </tr>
  </tbody> 
 </table>

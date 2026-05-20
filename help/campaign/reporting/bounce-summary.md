@@ -3,12 +3,17 @@ title: Synthèse des rebonds
 description: Grâce au rapport prêt à l’emploi Synthèse des rebonds, découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
 audience: end-user
 level: Intermediate
-badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limité aux utilisateurs migrés Campaign Standard"
+badge: label="DISPONIBILITÉ LIMITÉE" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restrictions aux utilisateurs ayant migré vers Campaign Standard"
 exl-id: b341edad-aa82-43d8-a5a1-b33a19973a1a
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/gfOXWpdQvONw72sdpnGehwpXcgte16B6dLiWV2LZXOc
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 86%
+source-wordcount: 298
+ht-degree: 97%
 
 ---
 
@@ -20,7 +25,7 @@ Ce rapport présente l’ensemble des erreurs relatives aux rebonds définitifs 
 
 Chaque tableau est représenté par des nombres et des graphiques de synthèse. Vous pouvez modifier le mode d&#39;affichage des détails dans leurs paramètres de visualisation respectifs.
 
-**Flop 5 repartition** liste les cinq diffusions ayant le plus grand nombre de mises en quarantaine :
+**Flop 5 des répartitions** liste les cinq diffusions présentant le plus grand nombre de mises en quarantaine :
 
 Le tableau **Raisons des rebonds** contient les données disponibles pour les types d’erreur ayant causé des rebonds pour chaque diffusion :
 
@@ -33,8 +38,8 @@ Le tableau **Raisons des rebonds** contient les données disponibles pour les ty
 
   >[!NOTE]
   >
-  >Ce type d’envoi ne concerne que les diffusions sur les canaux mobiles.
+  >Ce type d’erreur ne concerne que les diffusions sur les canaux mobiles.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le fournisseur d’accès Internet (FAI). Par exemple, lorsqu’une règle de sécurité a été appliquée par un logiciel anti-spam.
 
-La table **Répartition de domaine** affiche les problèmes généraux rencontrés lors des diffusions en fonction du domaine du destinataire.
+Le tableau **Répartition des domaines** affiche les problèmes généraux survenus au cours des diffusions, en fonction du domaine du destinataire.
